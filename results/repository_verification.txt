@@ -1,0 +1,13 @@
+test_data.py
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.014s
+
+OK
+
+verify_results.py
+PASS: all 6 comparator metric rows independently reproduced from 240 saved predictions.
+PASS: validation selection reproduces Random Forest without test scores.
+PASS: held-out labels match the frozen-source modelling dataset.
+
+Executed repository notebook: 6 code cells, no errors.

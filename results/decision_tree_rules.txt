@@ -1,0 +1,19 @@
+|--- urban_share_lag1 <= 0.91
+|   |--- log_population_lag1 <= 13.53
+|   |   |--- urban_share_lag1 <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- urban_share_lag1 >  0.50
+|   |   |   |--- class: 0
+|   |--- log_population_lag1 >  13.53
+|   |   |--- unemployment_lag1 <= 4.95
+|   |   |   |--- class: 0
+|   |   |--- unemployment_lag1 >  4.95
+|   |   |   |--- class: 0
+|--- urban_share_lag1 >  0.91
+|   |--- income_ratio_lag1 <= 1.66
+|   |   |--- unemployment_lag1 <= 4.80
+|   |   |   |--- class: 1
+|   |   |--- unemployment_lag1 >  4.80
+|   |   |   |--- class: 1
+|   |--- income_ratio_lag1 >  1.66
+|   |   |--- class: 1

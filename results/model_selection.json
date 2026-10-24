@@ -1,0 +1,5 @@
+{
+  "selected_model": "Random Forest",
+  "rule": "mean rolling-validation macro_f1",
+  "selection_uses_test": false
+}

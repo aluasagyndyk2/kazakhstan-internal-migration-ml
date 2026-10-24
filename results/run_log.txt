@@ -1,0 +1,53 @@
+Actual run completed on 2026-10-24
+Raw panel: 240 rows; model dataset: 164 rows
+Development: 124; held-out test: 40
+Features: income_ratio_lag1, wage_ratio_lag1, unemployment_lag1, urban_share_lag1, log_population_lag1
+Validation: expanding windows, outcomes 2019 through 2023
+Selected before test: Random Forest
+
+VALIDATION
+              model  validation_macro_f1  validation_macro_f1_sd  validation_balanced_accuracy  validation_accuracy
+     Majority dummy             0.429892                0.019372                      0.500000             0.755714
+Logistic Regression             0.803357                0.083493                      0.844144             0.837143
+      Decision Tree             0.801193                0.064655                      0.862406             0.835714
+      Random Forest             0.898561                0.108395                      0.931845             0.918571
+  Gradient Boosting             0.870615                0.087319                      0.919171             0.898571
+ Previous-year sign             0.944589                0.050707                      0.960027             0.961429
+
+TEST
+              model  selected_before_test  n  positive  accuracy  balanced_accuracy  macro_f1  precision_positive  recall_positive  roc_auc  average_precision  tn  fp  fn  tp
+     Majority dummy                 False 40         9     0.775           0.500000  0.436620                0.00         0.000000 0.500000           0.225000  31   0   9   0
+Logistic Regression                 False 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.709677           0.742932  29   2   3   6
+      Decision Tree                 False 40         9     0.825           0.768817  0.758412                0.60         0.666667 0.731183           0.741667  27   4   3   6
+      Random Forest                  True 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.666667           0.734927  29   2   3   6
+  Gradient Boosting                 False 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.775986           0.760462  29   2   3   6
+ Previous-year sign                 False 40         9     0.950           0.888889  0.921875                1.00         0.777778 0.888889           0.827778  31   0   2   7
+
+SELECTED MODEL ERRORS
+        model      kato        region  year  target  prediction  probability  correct
+Random Forest 190000000 Almaty region  2024       1           0     0.034123    False
+Random Forest 230000000        Atyrau  2024       0           1     0.518455    False
+Random Forest 110000000        Akmola  2025       1           0     0.052200    False
+Random Forest 190000000 Almaty region  2025       1           0     0.037457    False
+Random Forest 230000000        Atyrau  2025       0           1     0.540423    False
+
+VALIDATION PERMUTATION IMPORTANCE
+                     mean_drop_macro_f1  sd_permutations
+feature                                                 
+urban_share_lag1               0.224348         0.083877
+income_ratio_lag1              0.061510         0.101670
+log_population_lag1            0.031889         0.063000
+unemployment_lag1              0.000000         0.000000
+wage_ratio_lag1               -0.018058         0.046421
+
+ENVIRONMENT
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.0.1",
+  "scikit_learn": "1.9.1",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "run_date": "2026-10-24"
+}

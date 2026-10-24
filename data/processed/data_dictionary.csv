@@ -1,0 +1,20 @@
+﻿variable,definition,unit,source_or_rule
+kato,Official current regional code,identifier,Not a model feature
+year,Migration outcome year,calendar year,2015-2025 in modelling data
+feature_year,Previous calendar year,calendar year,year minus 1
+migration_in,"Internal arrivals, all population",persons,BNS 613301; verification only
+migration_out,"Internal departures, all population",persons,BNS 613302; verification only
+migration_net,Internal arrivals minus internal departures,persons,BNS 613303; target construction only
+target,Positive migration balance = 1; negative = 0,binary,Exact zeros excluded; not observed in final dataset
+population,Average annual total population,persons,BNS 611104
+urban_population,Average annual urban population,persons,BNS 611104 urban block
+income,"Nominal per capita monetary income, monthly level in annual series",KZT/person/month,"BNS 641101; annual series, not sum of months"
+wage,"Average monthly nominal wage, official annual value",KZT/employee/month,Annual column za god; not sum of quarterly wages
+unemployment,"Unemployment rate, both sexes, region total",percent,BNS unemployment annual series
+income_ratio_lag1,Previous-year regional income / same-year national income,ratio,1 means national average; not a regional cost-of-living adjustment
+wage_ratio_lag1,Previous-year regional wage / same-year national wage,ratio,1 means national average
+unemployment_lag1,Previous-year unemployment rate,percent,Both sexes total
+urban_share_lag1,Previous-year urban population / total population,fraction 0-1,"Same region, same year, same source"
+log_population_lag1,Natural logarithm of previous-year average population,log persons,Controls scale without using region identity
+previous_net,Previous-year internal net migration,persons,Only persistence benchmark; excluded from socioeconomic ML inputs
+split,Development or final held-out test,category,Development <=2023; test 2024-2025

@@ -1,0 +1,19 @@
+{
+  "raw_rows": 240,
+  "candidate_rows": 220,
+  "model_rows": 164,
+  "excluded_rows": 56,
+  "development_rows": 124,
+  "test_rows": 40,
+  "positive": 40,
+  "negative": 124,
+  "features": [
+    "income_ratio_lag1",
+    "wage_ratio_lag1",
+    "unemployment_lag1",
+    "urban_share_lag1",
+    "log_population_lag1"
+  ],
+  "feature_missing": 0,
+  "territory_strategy": "Conservative unbalanced panel; all 20 current units from outcome year 2023; split-affected regions omitted earlier, not imputed"
+}

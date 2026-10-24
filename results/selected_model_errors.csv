@@ -1,0 +1,6 @@
+model,kato,region,year,target,prediction,probability,correct
+Random Forest,190000000,Almaty region,2024,1,0,0.03412318218317038,False
+Random Forest,230000000,Atyrau,2024,0,1,0.5184554557102093,False
+Random Forest,110000000,Akmola,2025,1,0,0.05219956837205095,False
+Random Forest,190000000,Almaty region,2025,1,0,0.03745651551650371,False
+Random Forest,230000000,Atyrau,2025,0,1,0.5404231263374543,False
