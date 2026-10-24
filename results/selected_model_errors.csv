@@ -1,6 +1,16 @@
-model,kato,region,year,target,prediction,probability,correct
-Random Forest,190000000,Almaty region,2024,1,0,0.03412318218317038,False
-Random Forest,230000000,Atyrau,2024,0,1,0.5184554557102093,False
-Random Forest,110000000,Akmola,2025,1,0,0.05219956837205095,False
-Random Forest,190000000,Almaty region,2025,1,0,0.03745651551650371,False
-Random Forest,230000000,Atyrau,2025,0,1,0.5404231263374543,False
+feature_set,model,year,kato,region,target,prediction,probability,correct
+Core (5),Random Forest,2019,110000000,Akmola,0,1,0.5743301425526657,False
+Core (5),Random Forest,2019,470000000,Mangystau,1,0,0.23725383282581433,False
+Extended (10),Random Forest,2019,110000000,Akmola,0,1,0.5456200836200837,False
+Extended (10),Random Forest,2019,470000000,Mangystau,1,0,0.24946180671180665,False
+Core (5),Random Forest,2022,230000000,Atyrau,0,1,0.520495688099908,False
+Core (5),Random Forest,2022,470000000,Mangystau,0,1,0.8760908313511121,False
+Core (5),Random Forest,2022,550000000,Pavlodar,0,1,0.5038313783979863,False
+Extended (10),Random Forest,2022,470000000,Mangystau,0,1,0.8067939450906206,False
+Core (5),Random Forest,2023,470000000,Mangystau,0,1,0.6536484394518454,False
+Core (5),Random Forest,2024,190000000,Almaty region,1,0,0.03412318218317038,False
+Core (5),Random Forest,2024,230000000,Atyrau,0,1,0.5184554557102093,False
+Extended (10),Random Forest,2024,190000000,Almaty region,1,0,0.11820444492348882,False
+Core (5),Random Forest,2025,110000000,Akmola,1,0,0.0678569320759151,False
+Core (5),Random Forest,2025,190000000,Almaty region,1,0,0.3580698954669745,False
+Extended (10),Random Forest,2025,110000000,Akmola,1,0,0.13313103363761614,False

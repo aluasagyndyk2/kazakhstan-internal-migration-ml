@@ -1,10 +1,18 @@
 {
   "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.22631-SP0",
-  "numpy": "2.5.4",
-  "pandas": "3.0.1",
-  "scikit_learn": "1.9.1",
-  "scipy": "1.18.1",
-  "matplotlib": "3.11.2",
-  "run_date": "2026-10-24"
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2",
+    "shap": "0.54.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "completed_utc": "2026-10-24T18:36:21.071031+00:00"
 }

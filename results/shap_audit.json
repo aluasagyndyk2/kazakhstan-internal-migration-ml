@@ -1,0 +1,13 @@
+{
+  "explainer": "shap.PermutationExplainer",
+  "version": "0.54.1",
+  "model": "Random Forest",
+  "validation_year": 2023,
+  "train_max_year": 2022,
+  "background_n": 32,
+  "explained_n": 20,
+  "max_evals": 210,
+  "seed": 42,
+  "max_additivity_error": 4.440892098500626e-16,
+  "units": "positive-class probability; descriptive, not causal"
+}

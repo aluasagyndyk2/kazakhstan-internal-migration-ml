@@ -1,0 +1,1393 @@
+feature_set,model,year,kato,region,target,prediction,probability,correct
+Core (5),Majority dummy,2019,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2019,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2019,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2019,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2019,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2019,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2019,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2019,470000000,Mangystau,1,0,0.0,False
+Core (5),Majority dummy,2019,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2019,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2019,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2019,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2019,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2019,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2019,110000000,Akmola,0,0,0.3144079152159758,True
+Core (5),Logistic Regression,2019,150000000,Aktobe,0,1,0.5071870799710065,False
+Core (5),Logistic Regression,2019,230000000,Atyrau,0,1,0.503087951611559,False
+Core (5),Logistic Regression,2019,270000000,West Kazakhstan,0,0,0.30284193267521464,True
+Core (5),Logistic Regression,2019,310000000,Zhambyl,0,0,0.33107075132567754,True
+Core (5),Logistic Regression,2019,390000000,Kostanay,0,0,0.43032497970763406,True
+Core (5),Logistic Regression,2019,430000000,Kyzylorda,0,0,0.2560029890284286,True
+Core (5),Logistic Regression,2019,470000000,Mangystau,1,0,0.27560920567549013,False
+Core (5),Logistic Regression,2019,550000000,Pavlodar,0,1,0.5389042042268269,False
+Core (5),Logistic Regression,2019,590000000,North Kazakhstan,0,0,0.20817470445677427,True
+Core (5),Logistic Regression,2019,610000000,Turkistan,0,0,0.3125746738474546,True
+Core (5),Logistic Regression,2019,710000000,Astana,1,1,0.8723628125421341,True
+Core (5),Logistic Regression,2019,750000000,Almaty city,1,1,0.9247169230773067,True
+Core (5),Logistic Regression,2019,790000000,Shymkent,1,1,0.6622367316167831,True
+Core (5),Decision Tree,2019,110000000,Akmola,0,1,0.8433734939759036,False
+Core (5),Decision Tree,2019,150000000,Aktobe,0,0,0.24054982817869425,True
+Core (5),Decision Tree,2019,230000000,Atyrau,0,0,0.24054982817869425,True
+Core (5),Decision Tree,2019,270000000,West Kazakhstan,0,0,0.24054982817869425,True
+Core (5),Decision Tree,2019,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2019,390000000,Kostanay,0,0,0.24054982817869425,True
+Core (5),Decision Tree,2019,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2019,470000000,Mangystau,1,0,0.0,False
+Core (5),Decision Tree,2019,550000000,Pavlodar,0,0,0.24054982817869425,True
+Core (5),Decision Tree,2019,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Decision Tree,2019,610000000,Turkistan,0,0,0.0,True
+Core (5),Decision Tree,2019,710000000,Astana,1,1,0.9496124031007751,True
+Core (5),Decision Tree,2019,750000000,Almaty city,1,1,0.9496124031007751,True
+Core (5),Decision Tree,2019,790000000,Shymkent,1,1,0.9496124031007751,True
+Core (5),Random Forest,2019,110000000,Akmola,0,1,0.5743301425526657,False
+Core (5),Random Forest,2019,150000000,Aktobe,0,0,0.3458049903169872,True
+Core (5),Random Forest,2019,230000000,Atyrau,0,0,0.3130882751865723,True
+Core (5),Random Forest,2019,270000000,West Kazakhstan,0,0,0.36831458057193345,True
+Core (5),Random Forest,2019,310000000,Zhambyl,0,0,0.11793502988239829,True
+Core (5),Random Forest,2019,390000000,Kostanay,0,0,0.2784055070030302,True
+Core (5),Random Forest,2019,430000000,Kyzylorda,0,0,0.07473529443266286,True
+Core (5),Random Forest,2019,470000000,Mangystau,1,0,0.23725383282581433,False
+Core (5),Random Forest,2019,550000000,Pavlodar,0,0,0.4180177028853498,True
+Core (5),Random Forest,2019,590000000,North Kazakhstan,0,0,0.2905173083996613,True
+Core (5),Random Forest,2019,610000000,Turkistan,0,0,0.1409760351734036,True
+Core (5),Random Forest,2019,710000000,Astana,1,1,0.9305596456919987,True
+Core (5),Random Forest,2019,750000000,Almaty city,1,1,0.8328385835297603,True
+Core (5),Random Forest,2019,790000000,Shymkent,1,1,0.5512647537647537,True
+Core (5),Gradient Boosting,2019,110000000,Akmola,0,0,0.48479583152237277,True
+Core (5),Gradient Boosting,2019,150000000,Aktobe,0,0,0.4463906640436366,True
+Core (5),Gradient Boosting,2019,230000000,Atyrau,0,0,0.10465407519636795,True
+Core (5),Gradient Boosting,2019,270000000,West Kazakhstan,0,1,0.5922250640884296,False
+Core (5),Gradient Boosting,2019,310000000,Zhambyl,0,0,0.028763816797511554,True
+Core (5),Gradient Boosting,2019,390000000,Kostanay,0,0,0.16665373421051513,True
+Core (5),Gradient Boosting,2019,430000000,Kyzylorda,0,0,0.03478630511006258,True
+Core (5),Gradient Boosting,2019,470000000,Mangystau,1,0,0.12220522091955671,False
+Core (5),Gradient Boosting,2019,550000000,Pavlodar,0,0,0.19531467404129435,True
+Core (5),Gradient Boosting,2019,590000000,North Kazakhstan,0,0,0.0799223290785357,True
+Core (5),Gradient Boosting,2019,610000000,Turkistan,0,0,0.02453102179066633,True
+Core (5),Gradient Boosting,2019,710000000,Astana,1,1,0.9731411256378592,True
+Core (5),Gradient Boosting,2019,750000000,Almaty city,1,1,0.9674227789582511,True
+Core (5),Gradient Boosting,2019,790000000,Shymkent,1,1,0.6143142569828991,True
+Core (5),Previous-year sign,2019,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2019,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2019,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2019,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2019,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2019,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2019,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2019,470000000,Mangystau,1,0,0.0,False
+Core (5),Previous-year sign,2019,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2019,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2019,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2019,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2019,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2019,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2019,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2019,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2019,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2019,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2019,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2019,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2019,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2019,470000000,Mangystau,1,0,0.0,False
+Extended (10),Majority dummy,2019,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2019,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2019,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2019,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2019,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2019,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2019,110000000,Akmola,0,0,0.41152554023103716,True
+Extended (10),Logistic Regression,2019,150000000,Aktobe,0,0,0.17065640523960873,True
+Extended (10),Logistic Regression,2019,230000000,Atyrau,0,0,0.2711617575567229,True
+Extended (10),Logistic Regression,2019,270000000,West Kazakhstan,0,0,0.3007252641048891,True
+Extended (10),Logistic Regression,2019,310000000,Zhambyl,0,0,0.15373867996068905,True
+Extended (10),Logistic Regression,2019,390000000,Kostanay,0,0,0.28126018499372996,True
+Extended (10),Logistic Regression,2019,430000000,Kyzylorda,0,0,0.13430659310810616,True
+Extended (10),Logistic Regression,2019,470000000,Mangystau,1,0,0.12797870440569306,False
+Extended (10),Logistic Regression,2019,550000000,Pavlodar,0,0,0.32059521614918685,True
+Extended (10),Logistic Regression,2019,590000000,North Kazakhstan,0,0,0.22373481290729422,True
+Extended (10),Logistic Regression,2019,610000000,Turkistan,0,0,0.33058706357274587,True
+Extended (10),Logistic Regression,2019,710000000,Astana,1,1,0.9041756342771208,True
+Extended (10),Logistic Regression,2019,750000000,Almaty city,1,1,0.9486481505204312,True
+Extended (10),Logistic Regression,2019,790000000,Shymkent,1,0,0.020856311355313996,False
+Extended (10),Decision Tree,2019,110000000,Akmola,0,0,0.42338709677419367,True
+Extended (10),Decision Tree,2019,150000000,Aktobe,0,0,0.0,True
+Extended (10),Decision Tree,2019,230000000,Atyrau,0,0,0.42338709677419367,True
+Extended (10),Decision Tree,2019,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2019,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Decision Tree,2019,390000000,Kostanay,0,0,0.42338709677419367,True
+Extended (10),Decision Tree,2019,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Decision Tree,2019,470000000,Mangystau,1,0,0.0,False
+Extended (10),Decision Tree,2019,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Decision Tree,2019,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2019,610000000,Turkistan,0,0,0.42338709677419367,True
+Extended (10),Decision Tree,2019,710000000,Astana,1,1,0.9496124031007752,True
+Extended (10),Decision Tree,2019,750000000,Almaty city,1,1,0.9496124031007752,True
+Extended (10),Decision Tree,2019,790000000,Shymkent,1,1,0.9496124031007752,True
+Extended (10),Random Forest,2019,110000000,Akmola,0,1,0.5456200836200837,False
+Extended (10),Random Forest,2019,150000000,Aktobe,0,0,0.18777038702038704,True
+Extended (10),Random Forest,2019,230000000,Atyrau,0,0,0.269413651163651,True
+Extended (10),Random Forest,2019,270000000,West Kazakhstan,0,0,0.31546752321752325,True
+Extended (10),Random Forest,2019,310000000,Zhambyl,0,0,0.06979256854256853,True
+Extended (10),Random Forest,2019,390000000,Kostanay,0,0,0.18560388685388687,True
+Extended (10),Random Forest,2019,430000000,Kyzylorda,0,0,0.042288239538239535,True
+Extended (10),Random Forest,2019,470000000,Mangystau,1,0,0.24946180671180665,False
+Extended (10),Random Forest,2019,550000000,Pavlodar,0,0,0.1865466940466941,True
+Extended (10),Random Forest,2019,590000000,North Kazakhstan,0,0,0.3657533485033483,True
+Extended (10),Random Forest,2019,610000000,Turkistan,0,0,0.1322195767195767,True
+Extended (10),Random Forest,2019,710000000,Astana,1,1,0.9288320105820109,True
+Extended (10),Random Forest,2019,750000000,Almaty city,1,1,0.9123541861188922,True
+Extended (10),Random Forest,2019,790000000,Shymkent,1,1,0.5962831645478704,True
+Extended (10),Gradient Boosting,2019,110000000,Akmola,0,1,0.584054991693517,False
+Extended (10),Gradient Boosting,2019,150000000,Aktobe,0,0,0.03111761652148236,True
+Extended (10),Gradient Boosting,2019,230000000,Atyrau,0,0,0.07806667882186777,True
+Extended (10),Gradient Boosting,2019,270000000,West Kazakhstan,0,0,0.25538115809765305,True
+Extended (10),Gradient Boosting,2019,310000000,Zhambyl,0,0,0.007533962406886401,True
+Extended (10),Gradient Boosting,2019,390000000,Kostanay,0,0,0.05994127559643973,True
+Extended (10),Gradient Boosting,2019,430000000,Kyzylorda,0,0,0.012302768320459245,True
+Extended (10),Gradient Boosting,2019,470000000,Mangystau,1,0,0.09396349132759818,False
+Extended (10),Gradient Boosting,2019,550000000,Pavlodar,0,0,0.13002244130623494,True
+Extended (10),Gradient Boosting,2019,590000000,North Kazakhstan,0,0,0.08363521912781113,True
+Extended (10),Gradient Boosting,2019,610000000,Turkistan,0,0,0.03252517315878778,True
+Extended (10),Gradient Boosting,2019,710000000,Astana,1,1,0.9220151532813959,True
+Extended (10),Gradient Boosting,2019,750000000,Almaty city,1,1,0.9471233738462911,True
+Extended (10),Gradient Boosting,2019,790000000,Shymkent,1,0,0.167305828627661,False
+Extended (10),Previous-year sign,2019,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2019,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2019,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2019,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2019,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2019,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2019,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2019,470000000,Mangystau,1,0,0.0,False
+Extended (10),Previous-year sign,2019,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2019,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2019,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2019,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2019,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2019,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2020,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2020,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2020,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2020,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2020,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2020,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2020,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2020,470000000,Mangystau,1,0,0.0,False
+Core (5),Majority dummy,2020,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2020,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2020,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2020,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2020,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2020,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2020,110000000,Akmola,0,0,0.23362300447723683,True
+Core (5),Logistic Regression,2020,150000000,Aktobe,0,1,0.50392889782367,False
+Core (5),Logistic Regression,2020,230000000,Atyrau,0,1,0.5229197521796213,False
+Core (5),Logistic Regression,2020,270000000,West Kazakhstan,0,0,0.27599599982845324,True
+Core (5),Logistic Regression,2020,310000000,Zhambyl,0,0,0.24041422331165255,True
+Core (5),Logistic Regression,2020,390000000,Kostanay,0,0,0.35207976422640863,True
+Core (5),Logistic Regression,2020,430000000,Kyzylorda,0,0,0.21889242902707262,True
+Core (5),Logistic Regression,2020,470000000,Mangystau,1,0,0.29950871290662884,False
+Core (5),Logistic Regression,2020,550000000,Pavlodar,0,0,0.46245106813511244,True
+Core (5),Logistic Regression,2020,590000000,North Kazakhstan,0,0,0.15629140516848022,True
+Core (5),Logistic Regression,2020,610000000,Turkistan,0,0,0.224937357493216,True
+Core (5),Logistic Regression,2020,710000000,Astana,1,1,0.8804348831756457,True
+Core (5),Logistic Regression,2020,750000000,Almaty city,1,1,0.9382448495708033,True
+Core (5),Logistic Regression,2020,790000000,Shymkent,1,1,0.7958274713981897,True
+Core (5),Decision Tree,2020,110000000,Akmola,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,150000000,Aktobe,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,230000000,Atyrau,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,270000000,West Kazakhstan,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2020,390000000,Kostanay,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2020,470000000,Mangystau,1,0,0.2816901408450703,False
+Core (5),Decision Tree,2020,550000000,Pavlodar,0,0,0.2816901408450703,True
+Core (5),Decision Tree,2020,590000000,North Kazakhstan,0,1,0.7988165680473374,False
+Core (5),Decision Tree,2020,610000000,Turkistan,0,0,0.0,True
+Core (5),Decision Tree,2020,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2020,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2020,790000000,Shymkent,1,1,0.9137055837563453,True
+Core (5),Random Forest,2020,110000000,Akmola,0,0,0.4347022501979154,True
+Core (5),Random Forest,2020,150000000,Aktobe,0,0,0.1847179162797157,True
+Core (5),Random Forest,2020,230000000,Atyrau,0,0,0.25369876561633525,True
+Core (5),Random Forest,2020,270000000,West Kazakhstan,0,0,0.4046181313011033,True
+Core (5),Random Forest,2020,310000000,Zhambyl,0,0,0.09779677436979671,True
+Core (5),Random Forest,2020,390000000,Kostanay,0,0,0.16199912336831843,True
+Core (5),Random Forest,2020,430000000,Kyzylorda,0,0,0.09998227302433557,True
+Core (5),Random Forest,2020,470000000,Mangystau,1,1,0.5998706963172135,True
+Core (5),Random Forest,2020,550000000,Pavlodar,0,0,0.30620709032969085,True
+Core (5),Random Forest,2020,590000000,North Kazakhstan,0,0,0.29259346109094164,True
+Core (5),Random Forest,2020,610000000,Turkistan,0,0,0.11499192691839752,True
+Core (5),Random Forest,2020,710000000,Astana,1,1,0.9549880674880677,True
+Core (5),Random Forest,2020,750000000,Almaty city,1,1,0.9034721455301952,True
+Core (5),Random Forest,2020,790000000,Shymkent,1,1,0.7273537773083782,True
+Core (5),Gradient Boosting,2020,110000000,Akmola,0,0,0.28437201111375593,True
+Core (5),Gradient Boosting,2020,150000000,Aktobe,0,0,0.15439799080755096,True
+Core (5),Gradient Boosting,2020,230000000,Atyrau,0,0,0.22886417819304514,True
+Core (5),Gradient Boosting,2020,270000000,West Kazakhstan,0,1,0.7313355291266026,False
+Core (5),Gradient Boosting,2020,310000000,Zhambyl,0,0,0.048020136825811244,True
+Core (5),Gradient Boosting,2020,390000000,Kostanay,0,0,0.15439799080755096,True
+Core (5),Gradient Boosting,2020,430000000,Kyzylorda,0,0,0.04145033614760042,True
+Core (5),Gradient Boosting,2020,470000000,Mangystau,1,1,0.7883226822196341,True
+Core (5),Gradient Boosting,2020,550000000,Pavlodar,0,0,0.1407439923753027,True
+Core (5),Gradient Boosting,2020,590000000,North Kazakhstan,0,0,0.04031396811774239,True
+Core (5),Gradient Boosting,2020,610000000,Turkistan,0,0,0.07250788806161594,True
+Core (5),Gradient Boosting,2020,710000000,Astana,1,1,0.9725608113953048,True
+Core (5),Gradient Boosting,2020,750000000,Almaty city,1,1,0.9564466392082582,True
+Core (5),Gradient Boosting,2020,790000000,Shymkent,1,1,0.8736446294778593,True
+Core (5),Previous-year sign,2020,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2020,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2020,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2020,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2020,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2020,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2020,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2020,470000000,Mangystau,1,1,1.0,True
+Core (5),Previous-year sign,2020,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2020,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2020,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2020,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2020,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2020,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2020,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2020,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2020,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2020,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2020,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2020,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2020,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2020,470000000,Mangystau,1,0,0.0,False
+Extended (10),Majority dummy,2020,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2020,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2020,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2020,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2020,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2020,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2020,110000000,Akmola,0,0,0.3557734429945611,True
+Extended (10),Logistic Regression,2020,150000000,Aktobe,0,0,0.46566262470810726,True
+Extended (10),Logistic Regression,2020,230000000,Atyrau,0,0,0.4445407127983354,True
+Extended (10),Logistic Regression,2020,270000000,West Kazakhstan,0,0,0.4330753997917478,True
+Extended (10),Logistic Regression,2020,310000000,Zhambyl,0,0,0.16305393564378387,True
+Extended (10),Logistic Regression,2020,390000000,Kostanay,0,0,0.2952976365237909,True
+Extended (10),Logistic Regression,2020,430000000,Kyzylorda,0,0,0.22848672758704944,True
+Extended (10),Logistic Regression,2020,470000000,Mangystau,1,0,0.32637867727922437,False
+Extended (10),Logistic Regression,2020,550000000,Pavlodar,0,0,0.2822614362981058,True
+Extended (10),Logistic Regression,2020,590000000,North Kazakhstan,0,0,0.15968608678602592,True
+Extended (10),Logistic Regression,2020,610000000,Turkistan,0,0,0.17199456931531754,True
+Extended (10),Logistic Regression,2020,710000000,Astana,1,1,0.8804103928987095,True
+Extended (10),Logistic Regression,2020,750000000,Almaty city,1,1,0.9740679536850623,True
+Extended (10),Logistic Regression,2020,790000000,Shymkent,1,1,0.7661412714342485,True
+Extended (10),Decision Tree,2020,110000000,Akmola,0,0,0.3461538461538462,True
+Extended (10),Decision Tree,2020,150000000,Aktobe,0,0,0.0,True
+Extended (10),Decision Tree,2020,230000000,Atyrau,0,0,0.3461538461538462,True
+Extended (10),Decision Tree,2020,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2020,310000000,Zhambyl,0,0,0.3461538461538462,True
+Extended (10),Decision Tree,2020,390000000,Kostanay,0,0,0.3461538461538462,True
+Extended (10),Decision Tree,2020,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Decision Tree,2020,470000000,Mangystau,1,1,0.7988165680473374,True
+Extended (10),Decision Tree,2020,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Decision Tree,2020,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2020,610000000,Turkistan,0,0,0.3461538461538462,True
+Extended (10),Decision Tree,2020,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2020,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2020,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2020,110000000,Akmola,0,0,0.40351649784492916,True
+Extended (10),Random Forest,2020,150000000,Aktobe,0,0,0.15416720177349696,True
+Extended (10),Random Forest,2020,230000000,Atyrau,0,0,0.20856623576638395,True
+Extended (10),Random Forest,2020,270000000,West Kazakhstan,0,0,0.22438397480122826,True
+Extended (10),Random Forest,2020,310000000,Zhambyl,0,0,0.08544953255215745,True
+Extended (10),Random Forest,2020,390000000,Kostanay,0,0,0.09723631690357028,True
+Extended (10),Random Forest,2020,430000000,Kyzylorda,0,0,0.04489546113624395,True
+Extended (10),Random Forest,2020,470000000,Mangystau,1,1,0.5463488953856602,True
+Extended (10),Random Forest,2020,550000000,Pavlodar,0,0,0.1361310898865785,True
+Extended (10),Random Forest,2020,590000000,North Kazakhstan,0,0,0.30409382807145285,True
+Extended (10),Random Forest,2020,610000000,Turkistan,0,0,0.17123073392159416,True
+Extended (10),Random Forest,2020,710000000,Astana,1,1,0.9604698264698264,True
+Extended (10),Random Forest,2020,750000000,Almaty city,1,1,0.9316571761571761,True
+Extended (10),Random Forest,2020,790000000,Shymkent,1,1,0.8472711640211638,True
+Extended (10),Gradient Boosting,2020,110000000,Akmola,0,0,0.31919172218158715,True
+Extended (10),Gradient Boosting,2020,150000000,Aktobe,0,0,0.056037535518476546,True
+Extended (10),Gradient Boosting,2020,230000000,Atyrau,0,0,0.0680780521138914,True
+Extended (10),Gradient Boosting,2020,270000000,West Kazakhstan,0,0,0.20549894180156114,True
+Extended (10),Gradient Boosting,2020,310000000,Zhambyl,0,0,0.027282220527067514,True
+Extended (10),Gradient Boosting,2020,390000000,Kostanay,0,0,0.0768935715349407,True
+Extended (10),Gradient Boosting,2020,430000000,Kyzylorda,0,0,0.031489113014765015,True
+Extended (10),Gradient Boosting,2020,470000000,Mangystau,1,1,0.8356108924339872,True
+Extended (10),Gradient Boosting,2020,550000000,Pavlodar,0,0,0.07961584920018482,True
+Extended (10),Gradient Boosting,2020,590000000,North Kazakhstan,0,0,0.051049085691548195,True
+Extended (10),Gradient Boosting,2020,610000000,Turkistan,0,0,0.020080870678326628,True
+Extended (10),Gradient Boosting,2020,710000000,Astana,1,1,0.9776272861469395,True
+Extended (10),Gradient Boosting,2020,750000000,Almaty city,1,1,0.9413589988387633,True
+Extended (10),Gradient Boosting,2020,790000000,Shymkent,1,1,0.913986387642473,True
+Extended (10),Previous-year sign,2020,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2020,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2020,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2020,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2020,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2020,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2020,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2020,470000000,Mangystau,1,1,1.0,True
+Extended (10),Previous-year sign,2020,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2020,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2020,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2020,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2020,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2020,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2021,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2021,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2021,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2021,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2021,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2021,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2021,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2021,470000000,Mangystau,1,0,0.0,False
+Core (5),Majority dummy,2021,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2021,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2021,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2021,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2021,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2021,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2021,110000000,Akmola,0,0,0.21933262176070303,True
+Core (5),Logistic Regression,2021,150000000,Aktobe,0,1,0.5109636568334487,False
+Core (5),Logistic Regression,2021,230000000,Atyrau,0,0,0.4992172167816159,True
+Core (5),Logistic Regression,2021,270000000,West Kazakhstan,0,0,0.2661440741451004,True
+Core (5),Logistic Regression,2021,310000000,Zhambyl,0,0,0.22874491509956466,True
+Core (5),Logistic Regression,2021,390000000,Kostanay,0,0,0.3453605412492831,True
+Core (5),Logistic Regression,2021,430000000,Kyzylorda,0,0,0.22116457513785362,True
+Core (5),Logistic Regression,2021,470000000,Mangystau,1,0,0.33577117476220225,False
+Core (5),Logistic Regression,2021,550000000,Pavlodar,0,0,0.4461751968495432,True
+Core (5),Logistic Regression,2021,590000000,North Kazakhstan,0,0,0.14398469899210228,True
+Core (5),Logistic Regression,2021,610000000,Turkistan,0,0,0.23772672039926515,True
+Core (5),Logistic Regression,2021,710000000,Astana,1,1,0.9044373900055337,True
+Core (5),Logistic Regression,2021,750000000,Almaty city,1,1,0.9477689983105988,True
+Core (5),Logistic Regression,2021,790000000,Shymkent,1,1,0.843218732335984,True
+Core (5),Decision Tree,2021,110000000,Akmola,0,1,0.6111111111111109,False
+Core (5),Decision Tree,2021,150000000,Aktobe,0,0,0.16768292682926822,True
+Core (5),Decision Tree,2021,230000000,Atyrau,0,0,0.16768292682926822,True
+Core (5),Decision Tree,2021,270000000,West Kazakhstan,0,0,0.16768292682926822,True
+Core (5),Decision Tree,2021,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2021,390000000,Kostanay,0,0,0.16768292682926822,True
+Core (5),Decision Tree,2021,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2021,470000000,Mangystau,1,1,0.6111111111111109,True
+Core (5),Decision Tree,2021,550000000,Pavlodar,0,0,0.16768292682926822,True
+Core (5),Decision Tree,2021,590000000,North Kazakhstan,0,1,0.6111111111111109,False
+Core (5),Decision Tree,2021,610000000,Turkistan,0,0,0.0,True
+Core (5),Decision Tree,2021,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2021,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2021,790000000,Shymkent,1,1,1.0,True
+Core (5),Random Forest,2021,110000000,Akmola,0,0,0.3229773299375482,True
+Core (5),Random Forest,2021,150000000,Aktobe,0,0,0.32192625490053134,True
+Core (5),Random Forest,2021,230000000,Atyrau,0,0,0.2262411627154837,True
+Core (5),Random Forest,2021,270000000,West Kazakhstan,0,0,0.2815378840816422,True
+Core (5),Random Forest,2021,310000000,Zhambyl,0,0,0.261787989267529,True
+Core (5),Random Forest,2021,390000000,Kostanay,0,0,0.12639338082163223,True
+Core (5),Random Forest,2021,430000000,Kyzylorda,0,0,0.09880978827462202,True
+Core (5),Random Forest,2021,470000000,Mangystau,1,1,0.7686911142024662,True
+Core (5),Random Forest,2021,550000000,Pavlodar,0,0,0.3458171301888801,True
+Core (5),Random Forest,2021,590000000,North Kazakhstan,0,0,0.319905917587935,True
+Core (5),Random Forest,2021,610000000,Turkistan,0,0,0.2870924919307272,True
+Core (5),Random Forest,2021,710000000,Astana,1,1,0.9918544973544975,True
+Core (5),Random Forest,2021,750000000,Almaty city,1,1,0.9942931697931698,True
+Core (5),Random Forest,2021,790000000,Shymkent,1,1,0.7759201087820017,True
+Core (5),Gradient Boosting,2021,110000000,Akmola,0,0,0.46473918063403735,True
+Core (5),Gradient Boosting,2021,150000000,Aktobe,0,0,0.13906870007624594,True
+Core (5),Gradient Boosting,2021,230000000,Atyrau,0,0,0.1248288100865741,True
+Core (5),Gradient Boosting,2021,270000000,West Kazakhstan,0,0,0.23094781124158045,True
+Core (5),Gradient Boosting,2021,310000000,Zhambyl,0,0,0.17686180331179258,True
+Core (5),Gradient Boosting,2021,390000000,Kostanay,0,0,0.1862186100448239,True
+Core (5),Gradient Boosting,2021,430000000,Kyzylorda,0,0,0.0692903642827458,True
+Core (5),Gradient Boosting,2021,470000000,Mangystau,1,1,0.6141583004452954,True
+Core (5),Gradient Boosting,2021,550000000,Pavlodar,0,0,0.08320013783434191,True
+Core (5),Gradient Boosting,2021,590000000,North Kazakhstan,0,0,0.1519628861883971,True
+Core (5),Gradient Boosting,2021,610000000,Turkistan,0,0,0.15299479688839585,True
+Core (5),Gradient Boosting,2021,710000000,Astana,1,1,0.9699589700006608,True
+Core (5),Gradient Boosting,2021,750000000,Almaty city,1,1,0.9619576307177111,True
+Core (5),Gradient Boosting,2021,790000000,Shymkent,1,1,0.866223998233656,True
+Core (5),Previous-year sign,2021,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2021,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2021,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2021,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2021,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2021,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2021,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2021,470000000,Mangystau,1,1,1.0,True
+Core (5),Previous-year sign,2021,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2021,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2021,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2021,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2021,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2021,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2021,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2021,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2021,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2021,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2021,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2021,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2021,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2021,470000000,Mangystau,1,0,0.0,False
+Extended (10),Majority dummy,2021,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2021,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2021,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2021,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2021,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2021,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2021,110000000,Akmola,0,1,0.5438082566625861,False
+Extended (10),Logistic Regression,2021,150000000,Aktobe,0,1,0.6570258999349714,False
+Extended (10),Logistic Regression,2021,230000000,Atyrau,0,1,0.8348421563067697,False
+Extended (10),Logistic Regression,2021,270000000,West Kazakhstan,0,1,0.5644478451218213,False
+Extended (10),Logistic Regression,2021,310000000,Zhambyl,0,0,0.27246507288472127,True
+Extended (10),Logistic Regression,2021,390000000,Kostanay,0,1,0.5421375686641908,False
+Extended (10),Logistic Regression,2021,430000000,Kyzylorda,0,0,0.21559523212129703,True
+Extended (10),Logistic Regression,2021,470000000,Mangystau,1,1,0.6350171948942607,True
+Extended (10),Logistic Regression,2021,550000000,Pavlodar,0,1,0.5752644045495933,False
+Extended (10),Logistic Regression,2021,590000000,North Kazakhstan,0,1,0.5178035926060559,False
+Extended (10),Logistic Regression,2021,610000000,Turkistan,0,0,0.25951370879267077,True
+Extended (10),Logistic Regression,2021,710000000,Astana,1,1,0.9909641357684963,True
+Extended (10),Logistic Regression,2021,750000000,Almaty city,1,1,0.9904768365438751,True
+Extended (10),Logistic Regression,2021,790000000,Shymkent,1,1,0.8671398494171791,True
+Extended (10),Decision Tree,2021,110000000,Akmola,0,1,0.7971014492753624,False
+Extended (10),Decision Tree,2021,150000000,Aktobe,0,0,0.056179775280898854,True
+Extended (10),Decision Tree,2021,230000000,Atyrau,0,1,0.7971014492753624,False
+Extended (10),Decision Tree,2021,270000000,West Kazakhstan,0,0,0.056179775280898854,True
+Extended (10),Decision Tree,2021,310000000,Zhambyl,0,0,0.056179775280898854,True
+Extended (10),Decision Tree,2021,390000000,Kostanay,0,1,0.7971014492753624,False
+Extended (10),Decision Tree,2021,430000000,Kyzylorda,0,0,0.056179775280898854,True
+Extended (10),Decision Tree,2021,470000000,Mangystau,1,1,0.7971014492753623,True
+Extended (10),Decision Tree,2021,550000000,Pavlodar,0,1,0.7971014492753624,False
+Extended (10),Decision Tree,2021,590000000,North Kazakhstan,0,1,0.7971014492753624,False
+Extended (10),Decision Tree,2021,610000000,Turkistan,0,0,0.42801556420233466,True
+Extended (10),Decision Tree,2021,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2021,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2021,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2021,110000000,Akmola,0,0,0.4712127268625744,True
+Extended (10),Random Forest,2021,150000000,Aktobe,0,0,0.18438820934083866,True
+Extended (10),Random Forest,2021,230000000,Atyrau,0,0,0.35785812607871437,True
+Extended (10),Random Forest,2021,270000000,West Kazakhstan,0,0,0.22286168033285483,True
+Extended (10),Random Forest,2021,310000000,Zhambyl,0,0,0.07452186477558104,True
+Extended (10),Random Forest,2021,390000000,Kostanay,0,0,0.3409247310892849,True
+Extended (10),Random Forest,2021,430000000,Kyzylorda,0,0,0.04406914712286341,True
+Extended (10),Random Forest,2021,470000000,Mangystau,1,1,0.7111950471444505,True
+Extended (10),Random Forest,2021,550000000,Pavlodar,0,0,0.41829005585166834,True
+Extended (10),Random Forest,2021,590000000,North Kazakhstan,0,0,0.4245326122679065,True
+Extended (10),Random Forest,2021,610000000,Turkistan,0,0,0.10351554520397241,True
+Extended (10),Random Forest,2021,710000000,Astana,1,1,0.9676055796055797,True
+Extended (10),Random Forest,2021,750000000,Almaty city,1,1,0.9752711640211637,True
+Extended (10),Random Forest,2021,790000000,Shymkent,1,1,0.8776683964183967,True
+Extended (10),Gradient Boosting,2021,110000000,Akmola,0,1,0.8016941633588098,False
+Extended (10),Gradient Boosting,2021,150000000,Aktobe,0,0,0.20435361502680427,True
+Extended (10),Gradient Boosting,2021,230000000,Atyrau,0,0,0.36929922544602767,True
+Extended (10),Gradient Boosting,2021,270000000,West Kazakhstan,0,0,0.09190676855694599,True
+Extended (10),Gradient Boosting,2021,310000000,Zhambyl,0,0,0.020206237020990468,True
+Extended (10),Gradient Boosting,2021,390000000,Kostanay,0,1,0.521996407316565,False
+Extended (10),Gradient Boosting,2021,430000000,Kyzylorda,0,0,0.07191765883689338,True
+Extended (10),Gradient Boosting,2021,470000000,Mangystau,1,1,0.9001390698420304,True
+Extended (10),Gradient Boosting,2021,550000000,Pavlodar,0,0,0.4443912897401796,True
+Extended (10),Gradient Boosting,2021,590000000,North Kazakhstan,0,0,0.2830935466420715,True
+Extended (10),Gradient Boosting,2021,610000000,Turkistan,0,0,0.018273711959857147,True
+Extended (10),Gradient Boosting,2021,710000000,Astana,1,1,0.9813791067320348,True
+Extended (10),Gradient Boosting,2021,750000000,Almaty city,1,1,0.946606632184261,True
+Extended (10),Gradient Boosting,2021,790000000,Shymkent,1,1,0.9581563953136124,True
+Extended (10),Previous-year sign,2021,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2021,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2021,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2021,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2021,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2021,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2021,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2021,470000000,Mangystau,1,1,1.0,True
+Extended (10),Previous-year sign,2021,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2021,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2021,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2021,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2021,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2021,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2022,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2022,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2022,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2022,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2022,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2022,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2022,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2022,470000000,Mangystau,0,0,0.0,True
+Core (5),Majority dummy,2022,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2022,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2022,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2022,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2022,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2022,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2022,110000000,Akmola,0,0,0.19624426316422322,True
+Core (5),Logistic Regression,2022,150000000,Aktobe,0,1,0.5153541820936806,False
+Core (5),Logistic Regression,2022,230000000,Atyrau,0,0,0.4239931685928906,True
+Core (5),Logistic Regression,2022,270000000,West Kazakhstan,0,0,0.22874468427580186,True
+Core (5),Logistic Regression,2022,310000000,Zhambyl,0,0,0.22974260059410345,True
+Core (5),Logistic Regression,2022,390000000,Kostanay,0,0,0.2951580178712761,True
+Core (5),Logistic Regression,2022,430000000,Kyzylorda,0,0,0.22541383516837607,True
+Core (5),Logistic Regression,2022,470000000,Mangystau,0,0,0.33605891833437573,True
+Core (5),Logistic Regression,2022,550000000,Pavlodar,0,0,0.4106169184669722,True
+Core (5),Logistic Regression,2022,590000000,North Kazakhstan,0,0,0.11285333058274438,True
+Core (5),Logistic Regression,2022,610000000,Turkistan,0,0,0.23779113614805245,True
+Core (5),Logistic Regression,2022,710000000,Astana,1,1,0.9127243011989763,True
+Core (5),Logistic Regression,2022,750000000,Almaty city,1,1,0.9548704279837179,True
+Core (5),Logistic Regression,2022,790000000,Shymkent,1,1,0.8680349318310647,True
+Core (5),Decision Tree,2022,110000000,Akmola,0,0,0.2574257425742573,True
+Core (5),Decision Tree,2022,150000000,Aktobe,0,0,0.2574257425742573,True
+Core (5),Decision Tree,2022,230000000,Atyrau,0,0,0.0,True
+Core (5),Decision Tree,2022,270000000,West Kazakhstan,0,0,0.2574257425742573,True
+Core (5),Decision Tree,2022,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2022,390000000,Kostanay,0,0,0.2574257425742573,True
+Core (5),Decision Tree,2022,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2022,470000000,Mangystau,0,1,0.8125,False
+Core (5),Decision Tree,2022,550000000,Pavlodar,0,1,0.8125,False
+Core (5),Decision Tree,2022,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Decision Tree,2022,610000000,Turkistan,0,0,0.0,True
+Core (5),Decision Tree,2022,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2022,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2022,790000000,Shymkent,1,1,1.0,True
+Core (5),Random Forest,2022,110000000,Akmola,0,0,0.22317206737780254,True
+Core (5),Random Forest,2022,150000000,Aktobe,0,0,0.15574148801453436,True
+Core (5),Random Forest,2022,230000000,Atyrau,0,1,0.520495688099908,False
+Core (5),Random Forest,2022,270000000,West Kazakhstan,0,0,0.2102253614580014,True
+Core (5),Random Forest,2022,310000000,Zhambyl,0,0,0.12845150282601017,True
+Core (5),Random Forest,2022,390000000,Kostanay,0,0,0.05134364379926969,True
+Core (5),Random Forest,2022,430000000,Kyzylorda,0,0,0.08082477426710706,True
+Core (5),Random Forest,2022,470000000,Mangystau,0,1,0.8760908313511121,False
+Core (5),Random Forest,2022,550000000,Pavlodar,0,1,0.5038313783979863,False
+Core (5),Random Forest,2022,590000000,North Kazakhstan,0,0,0.2657594285040027,True
+Core (5),Random Forest,2022,610000000,Turkistan,0,0,0.1659614785883321,True
+Core (5),Random Forest,2022,710000000,Astana,1,1,0.9952634310134312,True
+Core (5),Random Forest,2022,750000000,Almaty city,1,1,0.9910425315425315,True
+Core (5),Random Forest,2022,790000000,Shymkent,1,1,0.8016046263677845,True
+Core (5),Gradient Boosting,2022,110000000,Akmola,0,0,0.18405519996237266,True
+Core (5),Gradient Boosting,2022,150000000,Aktobe,0,0,0.0730913025016677,True
+Core (5),Gradient Boosting,2022,230000000,Atyrau,0,0,0.26190857501803566,True
+Core (5),Gradient Boosting,2022,270000000,West Kazakhstan,0,0,0.11807911314413921,True
+Core (5),Gradient Boosting,2022,310000000,Zhambyl,0,0,0.11508561882599204,True
+Core (5),Gradient Boosting,2022,390000000,Kostanay,0,0,0.06259487219867324,True
+Core (5),Gradient Boosting,2022,430000000,Kyzylorda,0,0,0.06900550563176457,True
+Core (5),Gradient Boosting,2022,470000000,Mangystau,0,1,0.826989673297939,False
+Core (5),Gradient Boosting,2022,550000000,Pavlodar,0,1,0.7433532022938119,False
+Core (5),Gradient Boosting,2022,590000000,North Kazakhstan,0,0,0.24717869361355616,True
+Core (5),Gradient Boosting,2022,610000000,Turkistan,0,0,0.12014402997660327,True
+Core (5),Gradient Boosting,2022,710000000,Astana,1,1,0.9667952264830676,True
+Core (5),Gradient Boosting,2022,750000000,Almaty city,1,1,0.965640042599065,True
+Core (5),Gradient Boosting,2022,790000000,Shymkent,1,1,0.9132924994049089,True
+Core (5),Previous-year sign,2022,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2022,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2022,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2022,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2022,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2022,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2022,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2022,470000000,Mangystau,0,1,1.0,False
+Core (5),Previous-year sign,2022,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2022,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2022,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2022,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2022,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2022,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2022,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2022,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2022,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2022,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2022,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2022,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2022,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2022,470000000,Mangystau,0,0,0.0,True
+Extended (10),Majority dummy,2022,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2022,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2022,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2022,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2022,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2022,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2022,110000000,Akmola,0,0,0.33238364733870546,True
+Extended (10),Logistic Regression,2022,150000000,Aktobe,0,1,0.5879528058373168,False
+Extended (10),Logistic Regression,2022,230000000,Atyrau,0,0,0.43835489510757614,True
+Extended (10),Logistic Regression,2022,270000000,West Kazakhstan,0,0,0.4504147320302425,True
+Extended (10),Logistic Regression,2022,310000000,Zhambyl,0,0,0.2450206212992113,True
+Extended (10),Logistic Regression,2022,390000000,Kostanay,0,0,0.3009473395582646,True
+Extended (10),Logistic Regression,2022,430000000,Kyzylorda,0,0,0.26459212663674264,True
+Extended (10),Logistic Regression,2022,470000000,Mangystau,0,1,0.5106422166598351,False
+Extended (10),Logistic Regression,2022,550000000,Pavlodar,0,0,0.2998497976190718,True
+Extended (10),Logistic Regression,2022,590000000,North Kazakhstan,0,0,0.274251809184885,True
+Extended (10),Logistic Regression,2022,610000000,Turkistan,0,0,0.19719135630831347,True
+Extended (10),Logistic Regression,2022,710000000,Astana,1,1,0.9763191467547967,True
+Extended (10),Logistic Regression,2022,750000000,Almaty city,1,1,0.9808208943382031,True
+Extended (10),Logistic Regression,2022,790000000,Shymkent,1,1,0.8847006010116185,True
+Extended (10),Decision Tree,2022,110000000,Akmola,0,1,0.6753246753246752,False
+Extended (10),Decision Tree,2022,150000000,Aktobe,0,0,0.0,True
+Extended (10),Decision Tree,2022,230000000,Atyrau,0,0,0.36619718309859156,True
+Extended (10),Decision Tree,2022,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2022,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Decision Tree,2022,390000000,Kostanay,0,0,0.0,True
+Extended (10),Decision Tree,2022,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Decision Tree,2022,470000000,Mangystau,0,1,0.7959183673469388,False
+Extended (10),Decision Tree,2022,550000000,Pavlodar,0,0,0.36619718309859156,True
+Extended (10),Decision Tree,2022,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2022,610000000,Turkistan,0,0,0.0,True
+Extended (10),Decision Tree,2022,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2022,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2022,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2022,110000000,Akmola,0,0,0.36651731412155086,True
+Extended (10),Random Forest,2022,150000000,Aktobe,0,0,0.08655474514274651,True
+Extended (10),Random Forest,2022,230000000,Atyrau,0,0,0.18128243403497823,True
+Extended (10),Random Forest,2022,270000000,West Kazakhstan,0,0,0.11661904738988432,True
+Extended (10),Random Forest,2022,310000000,Zhambyl,0,0,0.03528948346845423,True
+Extended (10),Random Forest,2022,390000000,Kostanay,0,0,0.2018545798723003,True
+Extended (10),Random Forest,2022,430000000,Kyzylorda,0,0,0.019547460830598263,True
+Extended (10),Random Forest,2022,470000000,Mangystau,0,1,0.8067939450906206,False
+Extended (10),Random Forest,2022,550000000,Pavlodar,0,0,0.3433601133041834,True
+Extended (10),Random Forest,2022,590000000,North Kazakhstan,0,0,0.28453744066833264,True
+Extended (10),Random Forest,2022,610000000,Turkistan,0,0,0.07811463774992121,True
+Extended (10),Random Forest,2022,710000000,Astana,1,1,0.9962460317460318,True
+Extended (10),Random Forest,2022,750000000,Almaty city,1,1,0.9920781440781442,True
+Extended (10),Random Forest,2022,790000000,Shymkent,1,1,0.9355449610775698,True
+Extended (10),Gradient Boosting,2022,110000000,Akmola,0,0,0.335016894376677,True
+Extended (10),Gradient Boosting,2022,150000000,Aktobe,0,0,0.03291194018633577,True
+Extended (10),Gradient Boosting,2022,230000000,Atyrau,0,0,0.037667409533557294,True
+Extended (10),Gradient Boosting,2022,270000000,West Kazakhstan,0,0,0.05622942824610318,True
+Extended (10),Gradient Boosting,2022,310000000,Zhambyl,0,0,0.028006746343671406,True
+Extended (10),Gradient Boosting,2022,390000000,Kostanay,0,0,0.0726901073807117,True
+Extended (10),Gradient Boosting,2022,430000000,Kyzylorda,0,0,0.04966374239969321,True
+Extended (10),Gradient Boosting,2022,470000000,Mangystau,0,1,0.9071292925275801,False
+Extended (10),Gradient Boosting,2022,550000000,Pavlodar,0,1,0.6126060642440356,False
+Extended (10),Gradient Boosting,2022,590000000,North Kazakhstan,0,0,0.4422807438685126,True
+Extended (10),Gradient Boosting,2022,610000000,Turkistan,0,0,0.0361401457726,True
+Extended (10),Gradient Boosting,2022,710000000,Astana,1,1,0.9721588836775111,True
+Extended (10),Gradient Boosting,2022,750000000,Almaty city,1,1,0.9594402503213171,True
+Extended (10),Gradient Boosting,2022,790000000,Shymkent,1,1,0.9566143236977456,True
+Extended (10),Previous-year sign,2022,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2022,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2022,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2022,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2022,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2022,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2022,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2022,470000000,Mangystau,0,1,1.0,False
+Extended (10),Previous-year sign,2022,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2022,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2022,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2022,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2022,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2022,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2023,100000000,Abay,0,0,0.0,True
+Core (5),Majority dummy,2023,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2023,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2023,190000000,Almaty region,0,0,0.0,True
+Core (5),Majority dummy,2023,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2023,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2023,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2023,330000000,Zhetisu,0,0,0.0,True
+Core (5),Majority dummy,2023,350000000,Karaganda,0,0,0.0,True
+Core (5),Majority dummy,2023,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2023,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2023,470000000,Mangystau,0,0,0.0,True
+Core (5),Majority dummy,2023,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2023,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2023,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2023,620000000,Ulytau,0,0,0.0,True
+Core (5),Majority dummy,2023,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2023,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2023,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2023,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2023,100000000,Abay,0,0,0.28033643114527534,True
+Core (5),Logistic Regression,2023,110000000,Akmola,0,0,0.2239599346512221,True
+Core (5),Logistic Regression,2023,150000000,Aktobe,0,1,0.5661858949293275,False
+Core (5),Logistic Regression,2023,190000000,Almaty region,0,0,0.08856498962746404,True
+Core (5),Logistic Regression,2023,230000000,Atyrau,0,0,0.4664914960176193,True
+Core (5),Logistic Regression,2023,270000000,West Kazakhstan,0,0,0.269561263583472,True
+Core (5),Logistic Regression,2023,310000000,Zhambyl,0,0,0.21446284929166418,True
+Core (5),Logistic Regression,2023,330000000,Zhetisu,0,0,0.157917529882143,True
+Core (5),Logistic Regression,2023,350000000,Karaganda,0,1,0.5966210797579578,False
+Core (5),Logistic Regression,2023,390000000,Kostanay,0,0,0.3131536277263464,True
+Core (5),Logistic Regression,2023,430000000,Kyzylorda,0,0,0.22326951350335544,True
+Core (5),Logistic Regression,2023,470000000,Mangystau,0,0,0.45339839086070427,True
+Core (5),Logistic Regression,2023,550000000,Pavlodar,0,0,0.3812201616313846,True
+Core (5),Logistic Regression,2023,590000000,North Kazakhstan,0,0,0.0930792181125372,True
+Core (5),Logistic Regression,2023,610000000,Turkistan,0,0,0.24317394236512616,True
+Core (5),Logistic Regression,2023,620000000,Ulytau,0,0,0.26991830767549807,True
+Core (5),Logistic Regression,2023,630000000,East Kazakhstan,0,0,0.3168934769026007,True
+Core (5),Logistic Regression,2023,710000000,Astana,1,1,0.9164353360673578,True
+Core (5),Logistic Regression,2023,750000000,Almaty city,1,1,0.9471833337726876,True
+Core (5),Logistic Regression,2023,790000000,Shymkent,1,1,0.8943474462107667,True
+Core (5),Decision Tree,2023,100000000,Abay,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,110000000,Akmola,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,150000000,Aktobe,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,190000000,Almaty region,0,0,0.0,True
+Core (5),Decision Tree,2023,230000000,Atyrau,0,0,0.0,True
+Core (5),Decision Tree,2023,270000000,West Kazakhstan,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2023,330000000,Zhetisu,0,0,0.0,True
+Core (5),Decision Tree,2023,350000000,Karaganda,0,1,0.7307692307692308,False
+Core (5),Decision Tree,2023,390000000,Kostanay,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2023,470000000,Mangystau,0,1,0.7307692307692308,False
+Core (5),Decision Tree,2023,550000000,Pavlodar,0,1,0.7307692307692308,False
+Core (5),Decision Tree,2023,590000000,North Kazakhstan,0,0,0.24203821656050933,True
+Core (5),Decision Tree,2023,610000000,Turkistan,0,0,0.0,True
+Core (5),Decision Tree,2023,620000000,Ulytau,0,1,0.7307692307692308,False
+Core (5),Decision Tree,2023,630000000,East Kazakhstan,0,1,0.7307692307692308,False
+Core (5),Decision Tree,2023,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2023,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2023,790000000,Shymkent,1,1,1.0,True
+Core (5),Random Forest,2023,100000000,Abay,0,0,0.2928737167654958,True
+Core (5),Random Forest,2023,110000000,Akmola,0,0,0.03898009639236339,True
+Core (5),Random Forest,2023,150000000,Aktobe,0,0,0.19056528460821642,True
+Core (5),Random Forest,2023,190000000,Almaty region,0,0,0.08153083878159466,True
+Core (5),Random Forest,2023,230000000,Atyrau,0,0,0.48140794065594367,True
+Core (5),Random Forest,2023,270000000,West Kazakhstan,0,0,0.23360922796912273,True
+Core (5),Random Forest,2023,310000000,Zhambyl,0,0,0.09947052897995863,True
+Core (5),Random Forest,2023,330000000,Zhetisu,0,0,0.21383551759822333,True
+Core (5),Random Forest,2023,350000000,Karaganda,0,0,0.4464723395849657,True
+Core (5),Random Forest,2023,390000000,Kostanay,0,0,0.05433168270333189,True
+Core (5),Random Forest,2023,430000000,Kyzylorda,0,0,0.08751317301290813,True
+Core (5),Random Forest,2023,470000000,Mangystau,0,1,0.6536484394518454,False
+Core (5),Random Forest,2023,550000000,Pavlodar,0,0,0.3374125190606178,True
+Core (5),Random Forest,2023,590000000,North Kazakhstan,0,0,0.37220607489278756,True
+Core (5),Random Forest,2023,610000000,Turkistan,0,0,0.14354287098837037,True
+Core (5),Random Forest,2023,620000000,Ulytau,0,0,0.4244349571515744,True
+Core (5),Random Forest,2023,630000000,East Kazakhstan,0,0,0.3846143068371583,True
+Core (5),Random Forest,2023,710000000,Astana,1,1,0.9943467643467644,True
+Core (5),Random Forest,2023,750000000,Almaty city,1,1,0.9892290394790397,True
+Core (5),Random Forest,2023,790000000,Shymkent,1,1,0.8913341458673943,True
+Core (5),Gradient Boosting,2023,100000000,Abay,0,0,0.37932414300974143,True
+Core (5),Gradient Boosting,2023,110000000,Akmola,0,0,0.06564474543579997,True
+Core (5),Gradient Boosting,2023,150000000,Aktobe,0,0,0.06261574726285488,True
+Core (5),Gradient Boosting,2023,190000000,Almaty region,0,0,0.07119257130444176,True
+Core (5),Gradient Boosting,2023,230000000,Atyrau,0,0,0.27895899019790804,True
+Core (5),Gradient Boosting,2023,270000000,West Kazakhstan,0,0,0.19002453494133248,True
+Core (5),Gradient Boosting,2023,310000000,Zhambyl,0,0,0.06196924843136763,True
+Core (5),Gradient Boosting,2023,330000000,Zhetisu,0,0,0.0591105598203238,True
+Core (5),Gradient Boosting,2023,350000000,Karaganda,0,1,0.524836259743788,False
+Core (5),Gradient Boosting,2023,390000000,Kostanay,0,0,0.12448941357342126,True
+Core (5),Gradient Boosting,2023,430000000,Kyzylorda,0,0,0.447810877320901,True
+Core (5),Gradient Boosting,2023,470000000,Mangystau,0,0,0.47802129339987565,True
+Core (5),Gradient Boosting,2023,550000000,Pavlodar,0,1,0.5069274818395509,False
+Core (5),Gradient Boosting,2023,590000000,North Kazakhstan,0,0,0.28716860327469806,True
+Core (5),Gradient Boosting,2023,610000000,Turkistan,0,0,0.0759290002742628,True
+Core (5),Gradient Boosting,2023,620000000,Ulytau,0,0,0.2572670224466583,True
+Core (5),Gradient Boosting,2023,630000000,East Kazakhstan,0,1,0.6201913794042416,False
+Core (5),Gradient Boosting,2023,710000000,Astana,1,1,0.9664561924447858,True
+Core (5),Gradient Boosting,2023,750000000,Almaty city,1,1,0.9664561924447858,True
+Core (5),Gradient Boosting,2023,790000000,Shymkent,1,1,0.9595944486900033,True
+Core (5),Previous-year sign,2023,100000000,Abay,0,0,0.0,True
+Core (5),Previous-year sign,2023,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2023,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2023,190000000,Almaty region,0,1,1.0,False
+Core (5),Previous-year sign,2023,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2023,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2023,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2023,330000000,Zhetisu,0,0,0.0,True
+Core (5),Previous-year sign,2023,350000000,Karaganda,0,0,0.0,True
+Core (5),Previous-year sign,2023,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2023,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2023,470000000,Mangystau,0,0,0.0,True
+Core (5),Previous-year sign,2023,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2023,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2023,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2023,620000000,Ulytau,0,0,0.0,True
+Core (5),Previous-year sign,2023,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2023,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2023,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2023,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2023,100000000,Abay,0,0,0.0,True
+Extended (10),Majority dummy,2023,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2023,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2023,190000000,Almaty region,0,0,0.0,True
+Extended (10),Majority dummy,2023,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2023,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2023,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2023,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Majority dummy,2023,350000000,Karaganda,0,0,0.0,True
+Extended (10),Majority dummy,2023,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2023,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2023,470000000,Mangystau,0,0,0.0,True
+Extended (10),Majority dummy,2023,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2023,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2023,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2023,620000000,Ulytau,0,0,0.0,True
+Extended (10),Majority dummy,2023,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2023,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2023,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2023,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2023,100000000,Abay,0,0,0.31381281981814696,True
+Extended (10),Logistic Regression,2023,110000000,Akmola,0,0,0.2123684892140457,True
+Extended (10),Logistic Regression,2023,150000000,Aktobe,0,1,0.5729822861363233,False
+Extended (10),Logistic Regression,2023,190000000,Almaty region,0,0,0.05990816431092293,True
+Extended (10),Logistic Regression,2023,230000000,Atyrau,0,0,0.33832718964307135,True
+Extended (10),Logistic Regression,2023,270000000,West Kazakhstan,0,0,0.4227009894195576,True
+Extended (10),Logistic Regression,2023,310000000,Zhambyl,0,0,0.16178475946099216,True
+Extended (10),Logistic Regression,2023,330000000,Zhetisu,0,0,0.12001893791721688,True
+Extended (10),Logistic Regression,2023,350000000,Karaganda,0,0,0.3810149816926236,True
+Extended (10),Logistic Regression,2023,390000000,Kostanay,0,0,0.232841026659554,True
+Extended (10),Logistic Regression,2023,430000000,Kyzylorda,0,0,0.24505505019710766,True
+Extended (10),Logistic Regression,2023,470000000,Mangystau,0,0,0.4687280574919235,True
+Extended (10),Logistic Regression,2023,550000000,Pavlodar,0,0,0.24437784718862235,True
+Extended (10),Logistic Regression,2023,590000000,North Kazakhstan,0,0,0.11938423970821863,True
+Extended (10),Logistic Regression,2023,610000000,Turkistan,0,0,0.18295460705360841,True
+Extended (10),Logistic Regression,2023,620000000,Ulytau,0,0,0.061902564712086515,True
+Extended (10),Logistic Regression,2023,630000000,East Kazakhstan,0,0,0.19039742570909915,True
+Extended (10),Logistic Regression,2023,710000000,Astana,1,1,0.9220304434633083,True
+Extended (10),Logistic Regression,2023,750000000,Almaty city,1,1,0.9459773494519264,True
+Extended (10),Logistic Regression,2023,790000000,Shymkent,1,1,0.9018751193097923,True
+Extended (10),Decision Tree,2023,100000000,Abay,0,0,0.0,True
+Extended (10),Decision Tree,2023,110000000,Akmola,0,1,0.6440677966101696,False
+Extended (10),Decision Tree,2023,150000000,Aktobe,0,0,0.0,True
+Extended (10),Decision Tree,2023,190000000,Almaty region,0,0,0.0,True
+Extended (10),Decision Tree,2023,230000000,Atyrau,0,0,0.0,True
+Extended (10),Decision Tree,2023,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2023,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Decision Tree,2023,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Decision Tree,2023,350000000,Karaganda,0,0,0.4042553191489362,True
+Extended (10),Decision Tree,2023,390000000,Kostanay,0,0,0.0,True
+Extended (10),Decision Tree,2023,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Decision Tree,2023,470000000,Mangystau,0,0,0.4042553191489362,True
+Extended (10),Decision Tree,2023,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Decision Tree,2023,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2023,610000000,Turkistan,0,0,0.0,True
+Extended (10),Decision Tree,2023,620000000,Ulytau,0,0,0.0,True
+Extended (10),Decision Tree,2023,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2023,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2023,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2023,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2023,100000000,Abay,0,0,0.12712617201760892,True
+Extended (10),Random Forest,2023,110000000,Akmola,0,0,0.24141198509615558,True
+Extended (10),Random Forest,2023,150000000,Aktobe,0,0,0.1046055336608649,True
+Extended (10),Random Forest,2023,190000000,Almaty region,0,0,0.16832568934693964,True
+Extended (10),Random Forest,2023,230000000,Atyrau,0,0,0.24139560222714626,True
+Extended (10),Random Forest,2023,270000000,West Kazakhstan,0,0,0.0851485352101672,True
+Extended (10),Random Forest,2023,310000000,Zhambyl,0,0,0.024491402340962455,True
+Extended (10),Random Forest,2023,330000000,Zhetisu,0,0,0.14762158440073136,True
+Extended (10),Random Forest,2023,350000000,Karaganda,0,0,0.29971346785920167,True
+Extended (10),Random Forest,2023,390000000,Kostanay,0,0,0.08979647270322429,True
+Extended (10),Random Forest,2023,430000000,Kyzylorda,0,0,0.042452962881454344,True
+Extended (10),Random Forest,2023,470000000,Mangystau,0,0,0.47026734286280514,True
+Extended (10),Random Forest,2023,550000000,Pavlodar,0,0,0.15876200030197185,True
+Extended (10),Random Forest,2023,590000000,North Kazakhstan,0,0,0.25282104714111364,True
+Extended (10),Random Forest,2023,610000000,Turkistan,0,0,0.07567512836871997,True
+Extended (10),Random Forest,2023,620000000,Ulytau,0,0,0.2882932571903368,True
+Extended (10),Random Forest,2023,630000000,East Kazakhstan,0,0,0.21362461182077255,True
+Extended (10),Random Forest,2023,710000000,Astana,1,1,0.9935608465608464,True
+Extended (10),Random Forest,2023,750000000,Almaty city,1,1,0.9925396825396825,True
+Extended (10),Random Forest,2023,790000000,Shymkent,1,1,0.9812973785473786,True
+Extended (10),Gradient Boosting,2023,100000000,Abay,0,0,0.07587523447282286,True
+Extended (10),Gradient Boosting,2023,110000000,Akmola,0,0,0.15108830035167717,True
+Extended (10),Gradient Boosting,2023,150000000,Aktobe,0,0,0.052294896251549365,True
+Extended (10),Gradient Boosting,2023,190000000,Almaty region,0,0,0.015762576525528343,True
+Extended (10),Gradient Boosting,2023,230000000,Atyrau,0,0,0.03704068753715746,True
+Extended (10),Gradient Boosting,2023,270000000,West Kazakhstan,0,0,0.05522992307252016,True
+Extended (10),Gradient Boosting,2023,310000000,Zhambyl,0,0,0.022524812714628376,True
+Extended (10),Gradient Boosting,2023,330000000,Zhetisu,0,0,0.03053796955076091,True
+Extended (10),Gradient Boosting,2023,350000000,Karaganda,0,0,0.17957600556156486,True
+Extended (10),Gradient Boosting,2023,390000000,Kostanay,0,0,0.06990045805882956,True
+Extended (10),Gradient Boosting,2023,430000000,Kyzylorda,0,0,0.10976809230445703,True
+Extended (10),Gradient Boosting,2023,470000000,Mangystau,0,0,0.20396472042980773,True
+Extended (10),Gradient Boosting,2023,550000000,Pavlodar,0,0,0.11500435817914767,True
+Extended (10),Gradient Boosting,2023,590000000,North Kazakhstan,0,0,0.17297888735410075,True
+Extended (10),Gradient Boosting,2023,610000000,Turkistan,0,0,0.04889026916088381,True
+Extended (10),Gradient Boosting,2023,620000000,Ulytau,0,0,0.20055318431958802,True
+Extended (10),Gradient Boosting,2023,630000000,East Kazakhstan,0,0,0.21451541556445183,True
+Extended (10),Gradient Boosting,2023,710000000,Astana,1,1,0.9680750833368886,True
+Extended (10),Gradient Boosting,2023,750000000,Almaty city,1,1,0.9635944009986648,True
+Extended (10),Gradient Boosting,2023,790000000,Shymkent,1,1,0.9652493685633886,True
+Extended (10),Previous-year sign,2023,100000000,Abay,0,0,0.0,True
+Extended (10),Previous-year sign,2023,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2023,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2023,190000000,Almaty region,0,1,1.0,False
+Extended (10),Previous-year sign,2023,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2023,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2023,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2023,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Previous-year sign,2023,350000000,Karaganda,0,0,0.0,True
+Extended (10),Previous-year sign,2023,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2023,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2023,470000000,Mangystau,0,0,0.0,True
+Extended (10),Previous-year sign,2023,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2023,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2023,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2023,620000000,Ulytau,0,0,0.0,True
+Extended (10),Previous-year sign,2023,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2023,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2023,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2023,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2024,100000000,Abay,0,0,0.0,True
+Core (5),Majority dummy,2024,110000000,Akmola,0,0,0.0,True
+Core (5),Majority dummy,2024,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2024,190000000,Almaty region,1,0,0.0,False
+Core (5),Majority dummy,2024,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2024,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2024,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2024,330000000,Zhetisu,0,0,0.0,True
+Core (5),Majority dummy,2024,350000000,Karaganda,0,0,0.0,True
+Core (5),Majority dummy,2024,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2024,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2024,470000000,Mangystau,0,0,0.0,True
+Core (5),Majority dummy,2024,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2024,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2024,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2024,620000000,Ulytau,0,0,0.0,True
+Core (5),Majority dummy,2024,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2024,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2024,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2024,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2024,100000000,Abay,0,0,0.20552511090428704,True
+Core (5),Logistic Regression,2024,110000000,Akmola,0,0,0.20998945660934504,True
+Core (5),Logistic Regression,2024,150000000,Aktobe,0,1,0.5230913953797124,False
+Core (5),Logistic Regression,2024,190000000,Almaty region,1,0,0.06566317585928091,False
+Core (5),Logistic Regression,2024,230000000,Atyrau,0,0,0.4668928372235233,True
+Core (5),Logistic Regression,2024,270000000,West Kazakhstan,0,0,0.22353824383423254,True
+Core (5),Logistic Regression,2024,310000000,Zhambyl,0,0,0.1755421438900041,True
+Core (5),Logistic Regression,2024,330000000,Zhetisu,0,0,0.11713378718106865,True
+Core (5),Logistic Regression,2024,350000000,Karaganda,0,0,0.41209718520492533,True
+Core (5),Logistic Regression,2024,390000000,Kostanay,0,0,0.2761041378050242,True
+Core (5),Logistic Regression,2024,430000000,Kyzylorda,0,0,0.20393380002163963,True
+Core (5),Logistic Regression,2024,470000000,Mangystau,0,0,0.4277994862312427,True
+Core (5),Logistic Regression,2024,550000000,Pavlodar,0,0,0.3786697929009302,True
+Core (5),Logistic Regression,2024,590000000,North Kazakhstan,0,0,0.06680983120722589,True
+Core (5),Logistic Regression,2024,610000000,Turkistan,0,0,0.18365151666680837,True
+Core (5),Logistic Regression,2024,620000000,Ulytau,0,0,0.16487933782213027,True
+Core (5),Logistic Regression,2024,630000000,East Kazakhstan,0,0,0.05591550000556897,True
+Core (5),Logistic Regression,2024,710000000,Astana,1,1,0.9074579802537123,True
+Core (5),Logistic Regression,2024,750000000,Almaty city,1,1,0.941140528815821,True
+Core (5),Logistic Regression,2024,790000000,Shymkent,1,1,0.8890029339319659,True
+Core (5),Decision Tree,2024,100000000,Abay,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,110000000,Akmola,0,0,0.0,True
+Core (5),Decision Tree,2024,150000000,Aktobe,0,0,0.0,True
+Core (5),Decision Tree,2024,190000000,Almaty region,1,0,0.0,False
+Core (5),Decision Tree,2024,230000000,Atyrau,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,270000000,West Kazakhstan,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,310000000,Zhambyl,0,0,0.0,True
+Core (5),Decision Tree,2024,330000000,Zhetisu,0,1,0.525,False
+Core (5),Decision Tree,2024,350000000,Karaganda,0,0,0.0,True
+Core (5),Decision Tree,2024,390000000,Kostanay,0,0,0.0,True
+Core (5),Decision Tree,2024,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Decision Tree,2024,470000000,Mangystau,0,0,0.23076923076923078,True
+Core (5),Decision Tree,2024,550000000,Pavlodar,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,590000000,North Kazakhstan,0,1,0.525,False
+Core (5),Decision Tree,2024,610000000,Turkistan,0,0,0.23076923076923078,True
+Core (5),Decision Tree,2024,620000000,Ulytau,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,630000000,East Kazakhstan,0,0,0.10344827586206898,True
+Core (5),Decision Tree,2024,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2024,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2024,790000000,Shymkent,1,1,1.0,True
+Core (5),Random Forest,2024,100000000,Abay,0,0,0.10988521671964101,True
+Core (5),Random Forest,2024,110000000,Akmola,0,0,0.05432912302792139,True
+Core (5),Random Forest,2024,150000000,Aktobe,0,0,0.16773914671225407,True
+Core (5),Random Forest,2024,190000000,Almaty region,1,0,0.03412318218317038,False
+Core (5),Random Forest,2024,230000000,Atyrau,0,1,0.5184554557102093,False
+Core (5),Random Forest,2024,270000000,West Kazakhstan,0,0,0.1144583130091574,True
+Core (5),Random Forest,2024,310000000,Zhambyl,0,0,0.09378159039835891,True
+Core (5),Random Forest,2024,330000000,Zhetisu,0,0,0.17853138742298175,True
+Core (5),Random Forest,2024,350000000,Karaganda,0,0,0.2527856761099677,True
+Core (5),Random Forest,2024,390000000,Kostanay,0,0,0.05936702484241895,True
+Core (5),Random Forest,2024,430000000,Kyzylorda,0,0,0.06141244352248061,True
+Core (5),Random Forest,2024,470000000,Mangystau,0,0,0.45678436901785935,True
+Core (5),Random Forest,2024,550000000,Pavlodar,0,0,0.26412512456601145,True
+Core (5),Random Forest,2024,590000000,North Kazakhstan,0,0,0.3382564171385959,True
+Core (5),Random Forest,2024,610000000,Turkistan,0,0,0.127734640731858,True
+Core (5),Random Forest,2024,620000000,Ulytau,0,0,0.34612146317675846,True
+Core (5),Random Forest,2024,630000000,East Kazakhstan,0,0,0.24269458882110564,True
+Core (5),Random Forest,2024,710000000,Astana,1,1,0.9984644225506294,True
+Core (5),Random Forest,2024,750000000,Almaty city,1,1,0.9907141173003242,True
+Core (5),Random Forest,2024,790000000,Shymkent,1,1,0.8500612830974085,True
+Core (5),Gradient Boosting,2024,100000000,Abay,0,0,0.09510697735196307,True
+Core (5),Gradient Boosting,2024,110000000,Akmola,0,0,0.09367912631392292,True
+Core (5),Gradient Boosting,2024,150000000,Aktobe,0,0,0.06711989428510588,True
+Core (5),Gradient Boosting,2024,190000000,Almaty region,1,0,0.10565135707654731,False
+Core (5),Gradient Boosting,2024,230000000,Atyrau,0,1,0.548397001280327,False
+Core (5),Gradient Boosting,2024,270000000,West Kazakhstan,0,0,0.11344122031663166,True
+Core (5),Gradient Boosting,2024,310000000,Zhambyl,0,0,0.07664601700696598,True
+Core (5),Gradient Boosting,2024,330000000,Zhetisu,0,0,0.06254033322785234,True
+Core (5),Gradient Boosting,2024,350000000,Karaganda,0,0,0.2260118434291419,True
+Core (5),Gradient Boosting,2024,390000000,Kostanay,0,0,0.09367912631392292,True
+Core (5),Gradient Boosting,2024,430000000,Kyzylorda,0,0,0.2991741680953265,True
+Core (5),Gradient Boosting,2024,470000000,Mangystau,0,0,0.22220493467891134,True
+Core (5),Gradient Boosting,2024,550000000,Pavlodar,0,0,0.26551197231609336,True
+Core (5),Gradient Boosting,2024,590000000,North Kazakhstan,0,0,0.19767503764494185,True
+Core (5),Gradient Boosting,2024,610000000,Turkistan,0,0,0.0905621961647123,True
+Core (5),Gradient Boosting,2024,620000000,Ulytau,0,0,0.16587175858428832,True
+Core (5),Gradient Boosting,2024,630000000,East Kazakhstan,0,0,0.34181068386346614,True
+Core (5),Gradient Boosting,2024,710000000,Astana,1,1,0.9674569816154965,True
+Core (5),Gradient Boosting,2024,750000000,Almaty city,1,1,0.9674569816154965,True
+Core (5),Gradient Boosting,2024,790000000,Shymkent,1,1,0.9556921094055639,True
+Core (5),Previous-year sign,2024,100000000,Abay,0,0,0.0,True
+Core (5),Previous-year sign,2024,110000000,Akmola,0,0,0.0,True
+Core (5),Previous-year sign,2024,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2024,190000000,Almaty region,1,0,0.0,False
+Core (5),Previous-year sign,2024,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2024,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2024,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2024,330000000,Zhetisu,0,0,0.0,True
+Core (5),Previous-year sign,2024,350000000,Karaganda,0,0,0.0,True
+Core (5),Previous-year sign,2024,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2024,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2024,470000000,Mangystau,0,0,0.0,True
+Core (5),Previous-year sign,2024,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2024,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2024,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2024,620000000,Ulytau,0,0,0.0,True
+Core (5),Previous-year sign,2024,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2024,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2024,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2024,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2024,100000000,Abay,0,0,0.0,True
+Extended (10),Majority dummy,2024,110000000,Akmola,0,0,0.0,True
+Extended (10),Majority dummy,2024,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2024,190000000,Almaty region,1,0,0.0,False
+Extended (10),Majority dummy,2024,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2024,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2024,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2024,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Majority dummy,2024,350000000,Karaganda,0,0,0.0,True
+Extended (10),Majority dummy,2024,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2024,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2024,470000000,Mangystau,0,0,0.0,True
+Extended (10),Majority dummy,2024,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2024,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2024,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2024,620000000,Ulytau,0,0,0.0,True
+Extended (10),Majority dummy,2024,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2024,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2024,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2024,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2024,100000000,Abay,0,0,0.2632327383222937,True
+Extended (10),Logistic Regression,2024,110000000,Akmola,0,0,0.21571687466425013,True
+Extended (10),Logistic Regression,2024,150000000,Aktobe,0,1,0.5036614436741977,False
+Extended (10),Logistic Regression,2024,190000000,Almaty region,1,0,0.045728278522449956,False
+Extended (10),Logistic Regression,2024,230000000,Atyrau,0,0,0.30819857140713064,True
+Extended (10),Logistic Regression,2024,270000000,West Kazakhstan,0,0,0.3647209096726562,True
+Extended (10),Logistic Regression,2024,310000000,Zhambyl,0,0,0.14091575460455655,True
+Extended (10),Logistic Regression,2024,330000000,Zhetisu,0,0,0.08440623670587448,True
+Extended (10),Logistic Regression,2024,350000000,Karaganda,0,0,0.2288251993576455,True
+Extended (10),Logistic Regression,2024,390000000,Kostanay,0,0,0.20323312380779185,True
+Extended (10),Logistic Regression,2024,430000000,Kyzylorda,0,0,0.24904863485859496,True
+Extended (10),Logistic Regression,2024,470000000,Mangystau,0,0,0.3109423636144058,True
+Extended (10),Logistic Regression,2024,550000000,Pavlodar,0,0,0.22782589991762453,True
+Extended (10),Logistic Regression,2024,590000000,North Kazakhstan,0,0,0.08804270623088088,True
+Extended (10),Logistic Regression,2024,610000000,Turkistan,0,0,0.12848955939398635,True
+Extended (10),Logistic Regression,2024,620000000,Ulytau,0,0,0.043247437416612966,True
+Extended (10),Logistic Regression,2024,630000000,East Kazakhstan,0,0,0.027476770021104865,True
+Extended (10),Logistic Regression,2024,710000000,Astana,1,1,0.9733484927742172,True
+Extended (10),Logistic Regression,2024,750000000,Almaty city,1,1,0.9634847705431983,True
+Extended (10),Logistic Regression,2024,790000000,Shymkent,1,1,0.8640239838511522,True
+Extended (10),Decision Tree,2024,100000000,Abay,0,0,0.0,True
+Extended (10),Decision Tree,2024,110000000,Akmola,0,1,0.6315789473684211,False
+Extended (10),Decision Tree,2024,150000000,Aktobe,0,0,0.0,True
+Extended (10),Decision Tree,2024,190000000,Almaty region,1,0,0.0,False
+Extended (10),Decision Tree,2024,230000000,Atyrau,0,0,0.0,True
+Extended (10),Decision Tree,2024,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2024,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Decision Tree,2024,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Decision Tree,2024,350000000,Karaganda,0,0,0.0,True
+Extended (10),Decision Tree,2024,390000000,Kostanay,0,0,0.0,True
+Extended (10),Decision Tree,2024,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Decision Tree,2024,470000000,Mangystau,0,0,0.0,True
+Extended (10),Decision Tree,2024,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Decision Tree,2024,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2024,610000000,Turkistan,0,0,0.0,True
+Extended (10),Decision Tree,2024,620000000,Ulytau,0,0,0.0,True
+Extended (10),Decision Tree,2024,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2024,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2024,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2024,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2024,100000000,Abay,0,0,0.09312468612032289,True
+Extended (10),Random Forest,2024,110000000,Akmola,0,0,0.1860048843486593,True
+Extended (10),Random Forest,2024,150000000,Aktobe,0,0,0.05833652718147255,True
+Extended (10),Random Forest,2024,190000000,Almaty region,1,0,0.11820444492348882,False
+Extended (10),Random Forest,2024,230000000,Atyrau,0,0,0.14493754691067132,True
+Extended (10),Random Forest,2024,270000000,West Kazakhstan,0,0,0.027686383633077884,True
+Extended (10),Random Forest,2024,310000000,Zhambyl,0,0,0.026802941232138628,True
+Extended (10),Random Forest,2024,330000000,Zhetisu,0,0,0.09937827165090235,True
+Extended (10),Random Forest,2024,350000000,Karaganda,0,0,0.17948658618483454,True
+Extended (10),Random Forest,2024,390000000,Kostanay,0,0,0.05546419359881398,True
+Extended (10),Random Forest,2024,430000000,Kyzylorda,0,0,0.044390191577472586,True
+Extended (10),Random Forest,2024,470000000,Mangystau,0,0,0.2681282759724296,True
+Extended (10),Random Forest,2024,550000000,Pavlodar,0,0,0.09414935072270894,True
+Extended (10),Random Forest,2024,590000000,North Kazakhstan,0,0,0.23220067767138972,True
+Extended (10),Random Forest,2024,610000000,Turkistan,0,0,0.0600863012822802,True
+Extended (10),Random Forest,2024,620000000,Ulytau,0,0,0.20483667619423715,True
+Extended (10),Random Forest,2024,630000000,East Kazakhstan,0,0,0.10875842241231924,True
+Extended (10),Random Forest,2024,710000000,Astana,1,1,0.9980423280423281,True
+Extended (10),Random Forest,2024,750000000,Almaty city,1,1,0.9968253968253968,True
+Extended (10),Random Forest,2024,790000000,Shymkent,1,1,0.9739013486513488,True
+Extended (10),Gradient Boosting,2024,100000000,Abay,0,0,0.050086419210363775,True
+Extended (10),Gradient Boosting,2024,110000000,Akmola,0,0,0.1251336525701493,True
+Extended (10),Gradient Boosting,2024,150000000,Aktobe,0,0,0.0424484625229192,True
+Extended (10),Gradient Boosting,2024,190000000,Almaty region,1,0,0.013711889427360478,False
+Extended (10),Gradient Boosting,2024,230000000,Atyrau,0,0,0.0424484625229192,True
+Extended (10),Gradient Boosting,2024,270000000,West Kazakhstan,0,0,0.0424484625229192,True
+Extended (10),Gradient Boosting,2024,310000000,Zhambyl,0,0,0.015857374528342454,True
+Extended (10),Gradient Boosting,2024,330000000,Zhetisu,0,0,0.03513808185506191,True
+Extended (10),Gradient Boosting,2024,350000000,Karaganda,0,0,0.13161213227627327,True
+Extended (10),Gradient Boosting,2024,390000000,Kostanay,0,0,0.04746236062394933,True
+Extended (10),Gradient Boosting,2024,430000000,Kyzylorda,0,0,0.05096557084321839,True
+Extended (10),Gradient Boosting,2024,470000000,Mangystau,0,0,0.02114049462641125,True
+Extended (10),Gradient Boosting,2024,550000000,Pavlodar,0,0,0.0424484625229192,True
+Extended (10),Gradient Boosting,2024,590000000,North Kazakhstan,0,0,0.09675546081268756,True
+Extended (10),Gradient Boosting,2024,610000000,Turkistan,0,0,0.058449992994035485,True
+Extended (10),Gradient Boosting,2024,620000000,Ulytau,0,0,0.09402475798837259,True
+Extended (10),Gradient Boosting,2024,630000000,East Kazakhstan,0,0,0.11302106684183266,True
+Extended (10),Gradient Boosting,2024,710000000,Astana,1,1,0.9635800612496918,True
+Extended (10),Gradient Boosting,2024,750000000,Almaty city,1,1,0.9615833888971685,True
+Extended (10),Gradient Boosting,2024,790000000,Shymkent,1,1,0.9709546522031436,True
+Extended (10),Previous-year sign,2024,100000000,Abay,0,0,0.0,True
+Extended (10),Previous-year sign,2024,110000000,Akmola,0,0,0.0,True
+Extended (10),Previous-year sign,2024,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2024,190000000,Almaty region,1,0,0.0,False
+Extended (10),Previous-year sign,2024,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2024,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2024,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2024,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Previous-year sign,2024,350000000,Karaganda,0,0,0.0,True
+Extended (10),Previous-year sign,2024,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2024,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2024,470000000,Mangystau,0,0,0.0,True
+Extended (10),Previous-year sign,2024,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2024,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2024,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2024,620000000,Ulytau,0,0,0.0,True
+Extended (10),Previous-year sign,2024,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2024,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2024,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2024,790000000,Shymkent,1,1,1.0,True
+Core (5),Majority dummy,2025,100000000,Abay,0,0,0.0,True
+Core (5),Majority dummy,2025,110000000,Akmola,1,0,0.0,False
+Core (5),Majority dummy,2025,150000000,Aktobe,0,0,0.0,True
+Core (5),Majority dummy,2025,190000000,Almaty region,1,0,0.0,False
+Core (5),Majority dummy,2025,230000000,Atyrau,0,0,0.0,True
+Core (5),Majority dummy,2025,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2025,310000000,Zhambyl,0,0,0.0,True
+Core (5),Majority dummy,2025,330000000,Zhetisu,0,0,0.0,True
+Core (5),Majority dummy,2025,350000000,Karaganda,0,0,0.0,True
+Core (5),Majority dummy,2025,390000000,Kostanay,0,0,0.0,True
+Core (5),Majority dummy,2025,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Majority dummy,2025,470000000,Mangystau,0,0,0.0,True
+Core (5),Majority dummy,2025,550000000,Pavlodar,0,0,0.0,True
+Core (5),Majority dummy,2025,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2025,610000000,Turkistan,0,0,0.0,True
+Core (5),Majority dummy,2025,620000000,Ulytau,0,0,0.0,True
+Core (5),Majority dummy,2025,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Majority dummy,2025,710000000,Astana,1,0,0.0,False
+Core (5),Majority dummy,2025,750000000,Almaty city,1,0,0.0,False
+Core (5),Majority dummy,2025,790000000,Shymkent,1,0,0.0,False
+Core (5),Logistic Regression,2025,100000000,Abay,0,0,0.18015280868126526,True
+Core (5),Logistic Regression,2025,110000000,Akmola,1,0,0.17926838179598448,False
+Core (5),Logistic Regression,2025,150000000,Aktobe,0,1,0.5523529374614058,False
+Core (5),Logistic Regression,2025,190000000,Almaty region,1,0,0.13446118705781626,False
+Core (5),Logistic Regression,2025,230000000,Atyrau,0,0,0.4695881348398316,True
+Core (5),Logistic Regression,2025,270000000,West Kazakhstan,0,0,0.18658150393242684,True
+Core (5),Logistic Regression,2025,310000000,Zhambyl,0,0,0.25236211445957596,True
+Core (5),Logistic Regression,2025,330000000,Zhetisu,0,0,0.09981918244311022,True
+Core (5),Logistic Regression,2025,350000000,Karaganda,0,1,0.5154527468914792,False
+Core (5),Logistic Regression,2025,390000000,Kostanay,0,0,0.26808620743675027,True
+Core (5),Logistic Regression,2025,430000000,Kyzylorda,0,0,0.20193849697095254,True
+Core (5),Logistic Regression,2025,470000000,Mangystau,0,0,0.43978665914956816,True
+Core (5),Logistic Regression,2025,550000000,Pavlodar,0,0,0.32830189163208967,True
+Core (5),Logistic Regression,2025,590000000,North Kazakhstan,0,0,0.04604679033981823,True
+Core (5),Logistic Regression,2025,610000000,Turkistan,0,0,0.3207115499506507,True
+Core (5),Logistic Regression,2025,620000000,Ulytau,0,0,0.06690306675920926,True
+Core (5),Logistic Regression,2025,630000000,East Kazakhstan,0,0,0.2573064976831603,True
+Core (5),Logistic Regression,2025,710000000,Astana,1,1,0.9298554261348752,True
+Core (5),Logistic Regression,2025,750000000,Almaty city,1,1,0.9572785425327164,True
+Core (5),Logistic Regression,2025,790000000,Shymkent,1,1,0.8750300603687674,True
+Core (5),Decision Tree,2025,100000000,Abay,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,110000000,Akmola,1,0,0.09850881156800712,False
+Core (5),Decision Tree,2025,150000000,Aktobe,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,190000000,Almaty region,1,0,0.24688561721404284,False
+Core (5),Decision Tree,2025,230000000,Atyrau,0,0,0.0,True
+Core (5),Decision Tree,2025,270000000,West Kazakhstan,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,310000000,Zhambyl,0,0,0.24688561721404284,True
+Core (5),Decision Tree,2025,330000000,Zhetisu,0,0,0.24688561721404284,True
+Core (5),Decision Tree,2025,350000000,Karaganda,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,390000000,Kostanay,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,430000000,Kyzylorda,0,0,0.24688561721404284,True
+Core (5),Decision Tree,2025,470000000,Mangystau,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,550000000,Pavlodar,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,590000000,North Kazakhstan,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,610000000,Turkistan,0,0,0.24688561721404284,True
+Core (5),Decision Tree,2025,620000000,Ulytau,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,630000000,East Kazakhstan,0,0,0.09850881156800712,True
+Core (5),Decision Tree,2025,710000000,Astana,1,1,1.0,True
+Core (5),Decision Tree,2025,750000000,Almaty city,1,1,1.0,True
+Core (5),Decision Tree,2025,790000000,Shymkent,1,1,1.0,True
+Core (5),Random Forest,2025,100000000,Abay,0,0,0.1671230683670328,True
+Core (5),Random Forest,2025,110000000,Akmola,1,0,0.0678569320759151,False
+Core (5),Random Forest,2025,150000000,Aktobe,0,0,0.1714433104991342,True
+Core (5),Random Forest,2025,190000000,Almaty region,1,0,0.3580698954669745,False
+Core (5),Random Forest,2025,230000000,Atyrau,0,0,0.44702061363479345,True
+Core (5),Random Forest,2025,270000000,West Kazakhstan,0,0,0.08769478465915945,True
+Core (5),Random Forest,2025,310000000,Zhambyl,0,0,0.20191000306735138,True
+Core (5),Random Forest,2025,330000000,Zhetisu,0,0,0.20788111420537428,True
+Core (5),Random Forest,2025,350000000,Karaganda,0,0,0.2060351245887092,True
+Core (5),Random Forest,2025,390000000,Kostanay,0,0,0.06804463949376958,True
+Core (5),Random Forest,2025,430000000,Kyzylorda,0,0,0.09503840605091984,True
+Core (5),Random Forest,2025,470000000,Mangystau,0,0,0.2791562349432361,True
+Core (5),Random Forest,2025,550000000,Pavlodar,0,0,0.21201410868742046,True
+Core (5),Random Forest,2025,590000000,North Kazakhstan,0,0,0.28064089160406885,True
+Core (5),Random Forest,2025,610000000,Turkistan,0,0,0.17503216652379522,True
+Core (5),Random Forest,2025,620000000,Ulytau,0,0,0.2798272126277121,True
+Core (5),Random Forest,2025,630000000,East Kazakhstan,0,0,0.16992642186017912,True
+Core (5),Random Forest,2025,710000000,Astana,1,1,0.9985206349206349,True
+Core (5),Random Forest,2025,750000000,Almaty city,1,1,0.9908910052910055,True
+Core (5),Random Forest,2025,790000000,Shymkent,1,1,0.921339688990347,True
+Core (5),Gradient Boosting,2025,100000000,Abay,0,0,0.13390049580524307,True
+Core (5),Gradient Boosting,2025,110000000,Akmola,1,0,0.09121743181065063,False
+Core (5),Gradient Boosting,2025,150000000,Aktobe,0,0,0.11417857654456366,True
+Core (5),Gradient Boosting,2025,190000000,Almaty region,1,0,0.3977969024909588,False
+Core (5),Gradient Boosting,2025,230000000,Atyrau,0,0,0.4250969634448207,True
+Core (5),Gradient Boosting,2025,270000000,West Kazakhstan,0,0,0.10528430381355905,True
+Core (5),Gradient Boosting,2025,310000000,Zhambyl,0,0,0.18598963834593965,True
+Core (5),Gradient Boosting,2025,330000000,Zhetisu,0,0,0.2578216392131218,True
+Core (5),Gradient Boosting,2025,350000000,Karaganda,0,0,0.20196790491915728,True
+Core (5),Gradient Boosting,2025,390000000,Kostanay,0,0,0.09121743181065063,True
+Core (5),Gradient Boosting,2025,430000000,Kyzylorda,0,0,0.22433459900435,True
+Core (5),Gradient Boosting,2025,470000000,Mangystau,0,0,0.20024204626663028,True
+Core (5),Gradient Boosting,2025,550000000,Pavlodar,0,0,0.1786336267171092,True
+Core (5),Gradient Boosting,2025,590000000,North Kazakhstan,0,0,0.19455270330262175,True
+Core (5),Gradient Boosting,2025,610000000,Turkistan,0,0,0.2872062446409464,True
+Core (5),Gradient Boosting,2025,620000000,Ulytau,0,0,0.09843279637860969,True
+Core (5),Gradient Boosting,2025,630000000,East Kazakhstan,0,0,0.18768396053054182,True
+Core (5),Gradient Boosting,2025,710000000,Astana,1,1,0.9686031423575615,True
+Core (5),Gradient Boosting,2025,750000000,Almaty city,1,1,0.9686031423575615,True
+Core (5),Gradient Boosting,2025,790000000,Shymkent,1,1,0.9505267664397183,True
+Core (5),Previous-year sign,2025,100000000,Abay,0,0,0.0,True
+Core (5),Previous-year sign,2025,110000000,Akmola,1,0,0.0,False
+Core (5),Previous-year sign,2025,150000000,Aktobe,0,0,0.0,True
+Core (5),Previous-year sign,2025,190000000,Almaty region,1,1,1.0,True
+Core (5),Previous-year sign,2025,230000000,Atyrau,0,0,0.0,True
+Core (5),Previous-year sign,2025,270000000,West Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2025,310000000,Zhambyl,0,0,0.0,True
+Core (5),Previous-year sign,2025,330000000,Zhetisu,0,0,0.0,True
+Core (5),Previous-year sign,2025,350000000,Karaganda,0,0,0.0,True
+Core (5),Previous-year sign,2025,390000000,Kostanay,0,0,0.0,True
+Core (5),Previous-year sign,2025,430000000,Kyzylorda,0,0,0.0,True
+Core (5),Previous-year sign,2025,470000000,Mangystau,0,0,0.0,True
+Core (5),Previous-year sign,2025,550000000,Pavlodar,0,0,0.0,True
+Core (5),Previous-year sign,2025,590000000,North Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2025,610000000,Turkistan,0,0,0.0,True
+Core (5),Previous-year sign,2025,620000000,Ulytau,0,0,0.0,True
+Core (5),Previous-year sign,2025,630000000,East Kazakhstan,0,0,0.0,True
+Core (5),Previous-year sign,2025,710000000,Astana,1,1,1.0,True
+Core (5),Previous-year sign,2025,750000000,Almaty city,1,1,1.0,True
+Core (5),Previous-year sign,2025,790000000,Shymkent,1,1,1.0,True
+Extended (10),Majority dummy,2025,100000000,Abay,0,0,0.0,True
+Extended (10),Majority dummy,2025,110000000,Akmola,1,0,0.0,False
+Extended (10),Majority dummy,2025,150000000,Aktobe,0,0,0.0,True
+Extended (10),Majority dummy,2025,190000000,Almaty region,1,0,0.0,False
+Extended (10),Majority dummy,2025,230000000,Atyrau,0,0,0.0,True
+Extended (10),Majority dummy,2025,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2025,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Majority dummy,2025,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Majority dummy,2025,350000000,Karaganda,0,0,0.0,True
+Extended (10),Majority dummy,2025,390000000,Kostanay,0,0,0.0,True
+Extended (10),Majority dummy,2025,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Majority dummy,2025,470000000,Mangystau,0,0,0.0,True
+Extended (10),Majority dummy,2025,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Majority dummy,2025,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2025,610000000,Turkistan,0,0,0.0,True
+Extended (10),Majority dummy,2025,620000000,Ulytau,0,0,0.0,True
+Extended (10),Majority dummy,2025,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Majority dummy,2025,710000000,Astana,1,0,0.0,False
+Extended (10),Majority dummy,2025,750000000,Almaty city,1,0,0.0,False
+Extended (10),Majority dummy,2025,790000000,Shymkent,1,0,0.0,False
+Extended (10),Logistic Regression,2025,100000000,Abay,0,0,0.2051384773112881,True
+Extended (10),Logistic Regression,2025,110000000,Akmola,1,0,0.16988685979041407,False
+Extended (10),Logistic Regression,2025,150000000,Aktobe,0,0,0.4137481910506736,True
+Extended (10),Logistic Regression,2025,190000000,Almaty region,1,0,0.18134106435687794,False
+Extended (10),Logistic Regression,2025,230000000,Atyrau,0,0,0.3390027205014368,True
+Extended (10),Logistic Regression,2025,270000000,West Kazakhstan,0,0,0.33654631748392716,True
+Extended (10),Logistic Regression,2025,310000000,Zhambyl,0,0,0.2372787074052181,True
+Extended (10),Logistic Regression,2025,330000000,Zhetisu,0,0,0.08547117918757015,True
+Extended (10),Logistic Regression,2025,350000000,Karaganda,0,0,0.3778329334062817,True
+Extended (10),Logistic Regression,2025,390000000,Kostanay,0,0,0.2086636639123042,True
+Extended (10),Logistic Regression,2025,430000000,Kyzylorda,0,0,0.30066977126000866,True
+Extended (10),Logistic Regression,2025,470000000,Mangystau,0,0,0.33475155607816065,True
+Extended (10),Logistic Regression,2025,550000000,Pavlodar,0,0,0.20278088807934397,True
+Extended (10),Logistic Regression,2025,590000000,North Kazakhstan,0,0,0.05717151224361267,True
+Extended (10),Logistic Regression,2025,610000000,Turkistan,0,0,0.28786762703032454,True
+Extended (10),Logistic Regression,2025,620000000,Ulytau,0,0,0.02232735315457075,True
+Extended (10),Logistic Regression,2025,630000000,East Kazakhstan,0,0,0.15607754742231633,True
+Extended (10),Logistic Regression,2025,710000000,Astana,1,1,0.9824587864400158,True
+Extended (10),Logistic Regression,2025,750000000,Almaty city,1,1,0.9816128447839881,True
+Extended (10),Logistic Regression,2025,790000000,Shymkent,1,1,0.8908961397252609,True
+Extended (10),Decision Tree,2025,100000000,Abay,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,110000000,Akmola,1,0,0.0,False
+Extended (10),Decision Tree,2025,150000000,Aktobe,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,190000000,Almaty region,1,0,0.4377510040160642,False
+Extended (10),Decision Tree,2025,230000000,Atyrau,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,270000000,West Kazakhstan,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,310000000,Zhambyl,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,330000000,Zhetisu,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,350000000,Karaganda,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,390000000,Kostanay,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,430000000,Kyzylorda,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,470000000,Mangystau,0,0,0.4377510040160642,True
+Extended (10),Decision Tree,2025,550000000,Pavlodar,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Decision Tree,2025,610000000,Turkistan,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,620000000,Ulytau,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,630000000,East Kazakhstan,0,0,0.036589459550184576,True
+Extended (10),Decision Tree,2025,710000000,Astana,1,1,1.0,True
+Extended (10),Decision Tree,2025,750000000,Almaty city,1,1,1.0,True
+Extended (10),Decision Tree,2025,790000000,Shymkent,1,1,1.0,True
+Extended (10),Random Forest,2025,100000000,Abay,0,0,0.08852551331202921,True
+Extended (10),Random Forest,2025,110000000,Akmola,1,0,0.13313103363761614,False
+Extended (10),Random Forest,2025,150000000,Aktobe,0,0,0.04308797306559808,True
+Extended (10),Random Forest,2025,190000000,Almaty region,1,1,0.5267140718429874,True
+Extended (10),Random Forest,2025,230000000,Atyrau,0,0,0.21695605383731065,True
+Extended (10),Random Forest,2025,270000000,West Kazakhstan,0,0,0.03439618508775087,True
+Extended (10),Random Forest,2025,310000000,Zhambyl,0,0,0.04429899276607994,True
+Extended (10),Random Forest,2025,330000000,Zhetisu,0,0,0.16903836656446306,True
+Extended (10),Random Forest,2025,350000000,Karaganda,0,0,0.0920919865318489,True
+Extended (10),Random Forest,2025,390000000,Kostanay,0,0,0.029881963968375284,True
+Extended (10),Random Forest,2025,430000000,Kyzylorda,0,0,0.02523781156420266,True
+Extended (10),Random Forest,2025,470000000,Mangystau,0,0,0.2452155377088215,True
+Extended (10),Random Forest,2025,550000000,Pavlodar,0,0,0.06474190179402169,True
+Extended (10),Random Forest,2025,590000000,North Kazakhstan,0,0,0.17431869310697667,True
+Extended (10),Random Forest,2025,610000000,Turkistan,0,0,0.11378739382566709,True
+Extended (10),Random Forest,2025,620000000,Ulytau,0,0,0.14900858297764125,True
+Extended (10),Random Forest,2025,630000000,East Kazakhstan,0,0,0.06467725776958684,True
+Extended (10),Random Forest,2025,710000000,Astana,1,1,0.9977142857142857,True
+Extended (10),Random Forest,2025,750000000,Almaty city,1,1,1.0,True
+Extended (10),Random Forest,2025,790000000,Shymkent,1,1,0.923608609322024,True
+Extended (10),Gradient Boosting,2025,100000000,Abay,0,0,0.060714350712007176,True
+Extended (10),Gradient Boosting,2025,110000000,Akmola,1,0,0.16755994832685725,False
+Extended (10),Gradient Boosting,2025,150000000,Aktobe,0,0,0.03622416605527108,True
+Extended (10),Gradient Boosting,2025,190000000,Almaty region,1,1,0.5794380972912052,True
+Extended (10),Gradient Boosting,2025,230000000,Atyrau,0,0,0.051083533190449316,True
+Extended (10),Gradient Boosting,2025,270000000,West Kazakhstan,0,0,0.03622416605527108,True
+Extended (10),Gradient Boosting,2025,310000000,Zhambyl,0,0,0.02780172892470521,True
+Extended (10),Gradient Boosting,2025,330000000,Zhetisu,0,0,0.04410452829648379,True
+Extended (10),Gradient Boosting,2025,350000000,Karaganda,0,0,0.09029270906334655,True
+Extended (10),Gradient Boosting,2025,390000000,Kostanay,0,0,0.03622416605527108,True
+Extended (10),Gradient Boosting,2025,430000000,Kyzylorda,0,0,0.048013643741169586,True
+Extended (10),Gradient Boosting,2025,470000000,Mangystau,0,0,0.1900845943574415,True
+Extended (10),Gradient Boosting,2025,550000000,Pavlodar,0,0,0.03622416605527108,True
+Extended (10),Gradient Boosting,2025,590000000,North Kazakhstan,0,0,0.09606945728369946,True
+Extended (10),Gradient Boosting,2025,610000000,Turkistan,0,0,0.04687467540213122,True
+Extended (10),Gradient Boosting,2025,620000000,Ulytau,0,0,0.06549878763116802,True
+Extended (10),Gradient Boosting,2025,630000000,East Kazakhstan,0,0,0.03622416605527108,True
+Extended (10),Gradient Boosting,2025,710000000,Astana,1,1,0.9658668245068965,True
+Extended (10),Gradient Boosting,2025,750000000,Almaty city,1,1,0.9658668245068965,True
+Extended (10),Gradient Boosting,2025,790000000,Shymkent,1,1,0.9696686228710654,True
+Extended (10),Previous-year sign,2025,100000000,Abay,0,0,0.0,True
+Extended (10),Previous-year sign,2025,110000000,Akmola,1,0,0.0,False
+Extended (10),Previous-year sign,2025,150000000,Aktobe,0,0,0.0,True
+Extended (10),Previous-year sign,2025,190000000,Almaty region,1,1,1.0,True
+Extended (10),Previous-year sign,2025,230000000,Atyrau,0,0,0.0,True
+Extended (10),Previous-year sign,2025,270000000,West Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2025,310000000,Zhambyl,0,0,0.0,True
+Extended (10),Previous-year sign,2025,330000000,Zhetisu,0,0,0.0,True
+Extended (10),Previous-year sign,2025,350000000,Karaganda,0,0,0.0,True
+Extended (10),Previous-year sign,2025,390000000,Kostanay,0,0,0.0,True
+Extended (10),Previous-year sign,2025,430000000,Kyzylorda,0,0,0.0,True
+Extended (10),Previous-year sign,2025,470000000,Mangystau,0,0,0.0,True
+Extended (10),Previous-year sign,2025,550000000,Pavlodar,0,0,0.0,True
+Extended (10),Previous-year sign,2025,590000000,North Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2025,610000000,Turkistan,0,0,0.0,True
+Extended (10),Previous-year sign,2025,620000000,Ulytau,0,0,0.0,True
+Extended (10),Previous-year sign,2025,630000000,East Kazakhstan,0,0,0.0,True
+Extended (10),Previous-year sign,2025,710000000,Astana,1,1,1.0,True
+Extended (10),Previous-year sign,2025,750000000,Almaty city,1,1,1.0,True
+Extended (10),Previous-year sign,2025,790000000,Shymkent,1,1,1.0,True

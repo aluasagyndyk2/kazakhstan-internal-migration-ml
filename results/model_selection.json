@@ -1,5 +1,14 @@
 {
-  "selected_model": "Random Forest",
-  "rule": "mean rolling-validation macro_f1",
-  "selection_uses_test": false
+  "selected": {
+    "Core (5)": "Random Forest",
+    "Extended (10)": "Random Forest"
+  },
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "uses_final_slice": false
 }

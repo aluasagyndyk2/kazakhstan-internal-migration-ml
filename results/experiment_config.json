@@ -1,43 +1,71 @@
 {
+  "version": 2,
   "seed": 42,
-  "primary_selection_metric": "mean rolling-validation macro_f1",
-  "fold_years": [
+  "feature_sets": {
+    "Core (5)": [
+      "income_ratio_lag1",
+      "wage_ratio_lag1",
+      "unemployment_lag1",
+      "urban_share_lag1",
+      "log_population_lag1"
+    ],
+    "Extended (10)": [
+      "income_ratio_lag1",
+      "wage_ratio_lag1",
+      "unemployment_lag1",
+      "urban_share_lag1",
+      "log_population_lag1",
+      "schools_per_10000_lag1",
+      "students_per_10000_lag1",
+      "doctors_per_10000_lag1",
+      "beds_per_10000_lag1",
+      "housing_sqm_per_person_lag1"
+    ]
+  },
+  "groups": {
+    "Core socioeconomic": [
+      "income_ratio_lag1",
+      "wage_ratio_lag1",
+      "unemployment_lag1",
+      "urban_share_lag1",
+      "log_population_lag1"
+    ],
+    "Education": [
+      "schools_per_10000_lag1",
+      "students_per_10000_lag1"
+    ],
+    "Healthcare": [
+      "doctors_per_10000_lag1",
+      "beds_per_10000_lag1"
+    ],
+    "Housing": [
+      "housing_sqm_per_person_lag1"
+    ]
+  },
+  "rolling_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "selection_years": [
     2019,
     2020,
     2021,
     2022,
     2023
   ],
-  "initial_training_years": [
-    2015,
-    2016,
-    2017,
-    2018
-  ],
-  "final_development_years": [
-    2015,
-    2016,
-    2017,
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023
-  ],
-  "test_years": [
+  "final_slice": [
     2024,
     2025
   ],
   "decision_threshold": 0.5,
-  "features": [
-    "income_ratio_lag1",
-    "wage_ratio_lag1",
-    "unemployment_lag1",
-    "urban_share_lag1",
-    "log_population_lag1"
-  ],
-  "class_weighting": "inverse class frequency from each training fold only",
+  "evaluation": "Train on all earlier eligible outcome years; evaluate the next year. Both feature sets use identical rows.",
+  "selection": "Learned model family chosen by mean macro F1 on 2019-2023 only; fixed hyperparameters; no search.",
+  "known_test_caution": "2024-2025 already inspected in V1; this is an exploratory extension, not a newly untouched test.",
   "model_parameters": {
     "Majority dummy": {
       "constant": null,
@@ -119,6 +147,10 @@
       "warm_start": false
     }
   },
-  "tuning": "No hyperparameter search; fixed modest-capacity configurations, selection by validation only",
-  "interpretation": "50 within-year validation permutations per feature per fold, selected model family only"
+  "permutation_repeats": 50,
+  "shap_year": 2023,
+  "shap_background_size": 32,
+  "shap_max_evals": 210,
+  "dataset_sha256": "8ed6f18df8e04875b493082ec2e33e53a4ea6be9be03097b3171810b3b30ac33",
+  "protocol_locked_utc": "2026-10-24T18:35:13.559894+00:00"
 }

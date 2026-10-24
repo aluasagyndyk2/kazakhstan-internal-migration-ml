@@ -11,7 +11,8 @@
     "file": "data/raw/population.xlsx",
     "sha256": "f08f3b5991bb1129305203ce6b9cd39c74f059c65235ff717864f57778105191",
     "bytes": 73038,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Average annual population"
   },
   {
     "id": "migration_in",
@@ -25,7 +26,8 @@
     "file": "data/raw/migration_in.xlsx",
     "sha256": "02da2e9e34e3fd07c8973f0ef1d752f8c7a6ef6d223b7addb6f3fb1778c04c95",
     "bytes": 47853,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Internal migration arrivals"
   },
   {
     "id": "migration_out",
@@ -39,7 +41,8 @@
     "file": "data/raw/migration_out.xlsx",
     "sha256": "49e1e7dbf0420b44d00db06d9582241cb953d1b114474430ff4345cc1565793b",
     "bytes": 47483,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Internal migration departures"
   },
   {
     "id": "migration_net",
@@ -53,7 +56,8 @@
     "file": "data/raw/migration_net.xlsx",
     "sha256": "7ac578809f24cfd57fd41fe4c5f02387524b8dd73b23c4d3d0c0a427ab0589b3",
     "bytes": 47763,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Net internal migration"
   },
   {
     "id": "unemployment",
@@ -67,7 +71,8 @@
     "file": "data/raw/unemployment.xlsx",
     "sha256": "d30fab16d79cf2e4b1657fcc8a06e0e6859645dbad1164d11a28cb748d61b1c9",
     "bytes": 179157,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Unemployment rate"
   },
   {
     "id": "income",
@@ -81,7 +86,8 @@
     "file": "data/raw/income.xlsx",
     "sha256": "ecea5f28f8fa57460d059036ad8ed84ce12bf98198c705a16150c3fc4a745758",
     "bytes": 87283,
-    "accessed": "2026-10-24"
+    "accessed": "2026-10-24",
+    "title_en": "Per capita nominal income"
   },
   {
     "id": "wages",
@@ -95,6 +101,72 @@
     "file": "data/raw/wages.xlsx",
     "sha256": "51670518c02febae380597aa98a22e95042d59bc3fe461c6f92713ada15b3bae",
     "bytes": 56372,
+    "accessed": "2026-10-24",
+    "title_en": "Average monthly wages"
+  },
+  {
+    "id": "schools",
+    "title_en": "Number of general education schools",
+    "title_ru": "Число общеобразовательных школ",
+    "updated": "13.08.2026",
+    "page": "education",
+    "url": "https://stat.gov.kz/api/iblock/element/3759/file/ru/",
+    "resolved_url": "https://stat.gov.kz:443/upload/iblock/ae3/9a2e4sjj74sg3pr3oh6sjrilchexvz9l/3.2.%20%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%20%D0%BE%D0%B1%D1%89%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D1%88%D0%BA%D0%BE%D0%BB.xlsx",
+    "file": "data/raw/schools.xlsx",
+    "sha256": "dc0abf5339b6d67727ed9b61285ffadbd4c00a0cf5acf9c724786b7b2f6bdcd5",
+    "bytes": 316450,
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "students",
+    "title_en": "Higher education students",
+    "title_ru": "Численность студентов организаций высшего образования",
+    "updated": "21.01.2026",
+    "page": "education",
+    "url": "https://stat.gov.kz/api/iblock/element/3736/file/ru/",
+    "resolved_url": "https://stat.gov.kz:443/upload/iblock/5c6/mwsju2eck88o2pbt1ola1rsjssrcm2nl/5.2.%20%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9%20%D0%B2%D1%8B%D1%81%D1%88%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.xls",
+    "file": "data/raw/students.xls",
+    "sha256": "4ff062fcababb92d9a9a2522d899420a494c6ddabc77099df4fb3b3ef60b1b5d",
+    "bytes": 48640,
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "beds",
+    "title_en": "Hospital beds",
+    "title_ru": "Число больничных коек",
+    "updated": "29.09.2026",
+    "page": "health",
+    "url": "https://stat.gov.kz/api/iblock/element/3692/file/ru/",
+    "resolved_url": "https://stat.gov.kz:443/upload/iblock/054/i2lexeqxzhrqw4o57qytg4aq7ibhb5p3/631401%20(%D1%80%D1%83%D1%81).xlsx",
+    "file": "data/raw/beds.xlsx",
+    "sha256": "3309a09620ad6960e57c718fd6874c2db715283d65b3bf73a48ce71b743d6237",
+    "bytes": 20758,
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "doctors",
+    "title_en": "Physicians of all specialties",
+    "title_ru": "Численность врачей всех специальностей",
+    "updated": "29.09.2026",
+    "page": "health",
+    "url": "https://stat.gov.kz/api/iblock/element/3690/file/ru/",
+    "resolved_url": "https://stat.gov.kz:443/upload/iblock/748/ah2436ezd0nclkb19bymn1bwuadl66tv/631501%20(%D1%80%D1%83%D1%81).xlsx",
+    "file": "data/raw/doctors.xlsx",
+    "sha256": "e926e2928d599c2a35528ccb6b24d9d46eb0561c676c11ad20d3970e253cce54",
+    "bytes": 19786,
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "housing",
+    "title_en": "Completed residential floor area",
+    "title_ru": "Общая площадь введенных в эксплуатацию жилых зданий",
+    "updated": "02.07.2026",
+    "page": "construction",
+    "url": "https://stat.gov.kz/api/iblock/element/4289/file/ru/",
+    "resolved_url": "https://stat.gov.kz:443/upload/iblock/4b7/g603im51rbayl150mjbwsyy7mlwrfv2d/7.%D0%92%D0%B2%D0%BE%D0%B4%20%D0%B2%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BE%D0%B1%D1%89%D0%B5%D0%B9%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8%20%D0%B6%D0%B8%D0%BB%D1%8B%D1%85%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2.xlsx",
+    "file": "data/raw/housing.xlsx",
+    "sha256": "23c5f46877ee84d409eb8ae2413d282cc844a02b8983b3294476745a7b41c742",
+    "bytes": 28447,
     "accessed": "2026-10-24"
   }
 ]

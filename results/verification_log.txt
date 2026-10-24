@@ -1,15 +1,4 @@
-test_data.py
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.022s
-
-OK
-
-verify_results.py
-PASS: all 6 comparator metric rows independently reproduced from 240 saved predictions.
-PASS: validation selection reproduces Random Forest without test scores.
-PASS: held-out labels match the frozen-source modelling dataset.
-
-PASS: 7 frozen source hashes; 164 modelling rows; 5 executed notebook cells; no notebook errors.
-PASS: methodology 1496 words; required six-column alignment table; no title borders or placeholders.
-Rendered and visually reviewed all 13 report pages and all 8 explanation pages.
+PASS: 84 yearly metric rows and 12 final-slice rows reproduced independently from 1392 predictions.
+PASS: identical samples, labels, earlier-year training, and pre-2024 family selection.
+PASS: SHAP values reconstruct saved probabilities; all 32 background rows precede 2023.
+PASS: feature/group importance has 50 repetitions in every selection year.

@@ -1,53 +1,85 @@
-Actual run completed on 2026-10-24
-Raw panel: 240 rows; model dataset: 164 rows
-Development: 124; held-out test: 40
-Features: income_ratio_lag1, wage_ratio_lag1, unemployment_lag1, urban_share_lag1, log_population_lag1
-Validation: expanding windows, outcomes 2019 through 2023
-Selected before test: Random Forest
+VERSION 2: actual execution
+Matched sample: 164; core features 5; extended features 10.
+Origins 2019-2025; each model trains only on earlier years. 2024-2025 were already seen in Version 1.
+Selected families from 2019-2023: {"Core (5)": "Random Forest", "Extended (10)": "Random Forest"}
 
-VALIDATION
-              model  validation_macro_f1  validation_macro_f1_sd  validation_balanced_accuracy  validation_accuracy
-     Majority dummy             0.429892                0.019372                      0.500000             0.755714
-Logistic Regression             0.803357                0.083493                      0.844144             0.837143
-      Decision Tree             0.801193                0.064655                      0.862406             0.835714
-      Random Forest             0.898561                0.108395                      0.931845             0.918571
-  Gradient Boosting             0.870615                0.087319                      0.919171             0.898571
- Previous-year sign             0.944589                0.050707                      0.960027             0.961429
+ROLLING SUMMARY
+  feature_set               model  mean_macro_f1  sd_macro_f1  mean_accuracy
+     Core (5)      Majority dummy       0.431782     0.016781       0.761224
+     Core (5) Logistic Regression       0.799124     0.075602       0.840816
+     Core (5)       Decision Tree       0.804952     0.055823       0.846939
+     Core (5)       Random Forest       0.882901     0.092457       0.913265
+     Core (5)   Gradient Boosting       0.862939     0.072491       0.898980
+     Core (5)  Previous-year sign       0.937811     0.043204       0.958163
+Extended (10)      Majority dummy       0.431782     0.016781       0.761224
+Extended (10) Logistic Regression       0.802285     0.141391       0.841837
+Extended (10)       Decision Tree       0.853101     0.110926       0.882653
+Extended (10)       Random Forest       0.938785     0.065954       0.955102
+Extended (10)   Gradient Boosting       0.889352     0.102786       0.914286
+Extended (10)  Previous-year sign       0.937811     0.043204       0.958163
 
-TEST
-              model  selected_before_test  n  positive  accuracy  balanced_accuracy  macro_f1  precision_positive  recall_positive  roc_auc  average_precision  tn  fp  fn  tp
-     Majority dummy                 False 40         9     0.775           0.500000  0.436620                0.00         0.000000 0.500000           0.225000  31   0   9   0
-Logistic Regression                 False 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.709677           0.742932  29   2   3   6
-      Decision Tree                 False 40         9     0.825           0.768817  0.758412                0.60         0.666667 0.731183           0.741667  27   4   3   6
-      Random Forest                  True 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.666667           0.734927  29   2   3   6
-  Gradient Boosting                 False 40         9     0.875           0.801075  0.813259                0.75         0.666667 0.775986           0.760462  29   2   3   6
- Previous-year sign                 False 40         9     0.950           0.888889  0.921875                1.00         0.777778 0.888889           0.827778  31   0   2   7
+PREVIOUSLY INSPECTED FINAL SLICE
+  feature_set               model  selected_on_2019_2023  n  positive  accuracy  balanced_accuracy  macro_f1  precision_positive  recall_positive  roc_auc  average_precision  tn  fp  fn  tp
+     Core (5)      Majority dummy                  False 40         9     0.775           0.500000  0.436620            0.000000         0.000000 0.500000           0.225000  31   0   9   0
+     Core (5) Logistic Regression                  False 40         9     0.850           0.784946  0.784946            0.666667         0.666667 0.724014           0.745844  28   3   3   6
+     Core (5)       Decision Tree                  False 40         9     0.875           0.801075  0.813259            0.750000         0.666667 0.818996           0.779274  29   2   3   6
+     Core (5)       Random Forest                   True 40         9     0.900           0.817204  0.843750            0.857143         0.666667 0.777778           0.794136  30   1   3   6
+     Core (5)   Gradient Boosting                  False 40         9     0.900           0.817204  0.843750            0.857143         0.666667 0.822581           0.811516  30   1   3   6
+     Core (5)  Previous-year sign                  False 40         9     0.950           0.888889  0.921875            1.000000         0.777778 0.888889           0.827778  31   0   2   7
+Extended (10)      Majority dummy                  False 40         9     0.775           0.500000  0.436620            0.000000         0.000000 0.500000           0.225000  31   0   9   0
+Extended (10) Logistic Regression                  False 40         9     0.900           0.817204  0.843750            0.857143         0.666667 0.749104           0.752123  30   1   3   6
+Extended (10)       Decision Tree                  False 40         9     0.900           0.817204  0.843750            0.857143         0.666667 0.829749           0.803086  30   1   3   6
+Extended (10)       Random Forest                   True 40         9     0.950           0.888889  0.921875            1.000000         0.777778 0.921147           0.874561  31   0   2   7
+Extended (10)   Gradient Boosting                  False 40         9     0.950           0.888889  0.921875            1.000000         0.777778 0.885305           0.901543  31   0   2   7
+Extended (10)  Previous-year sign                  False 40         9     0.950           0.888889  0.921875            1.000000         0.777778 0.888889           0.827778  31   0   2   7
 
-SELECTED MODEL ERRORS
-        model      kato        region  year  target  prediction  probability  correct
-Random Forest 190000000 Almaty region  2024       1           0     0.034123    False
-Random Forest 230000000        Atyrau  2024       0           1     0.518455    False
-Random Forest 110000000        Akmola  2025       1           0     0.052200    False
-Random Forest 190000000 Almaty region  2025       1           0     0.037457    False
-Random Forest 230000000        Atyrau  2025       0           1     0.540423    False
+GROUP IMPORTANCE
+ kind               name  mean_drop_macro_f1       sd
+group Core socioeconomic            0.057915 0.064773
+group          Education            0.243715 0.120758
+group         Healthcare            0.002825 0.048333
+group            Housing            0.003949 0.017623
 
-VALIDATION PERMUTATION IMPORTANCE
-                     mean_drop_macro_f1  sd_permutations
-feature                                                 
-urban_share_lag1               0.224348         0.083877
-income_ratio_lag1              0.061510         0.101670
-log_population_lag1            0.031889         0.063000
-unemployment_lag1              0.000000         0.000000
-wage_ratio_lag1               -0.018058         0.046421
+SHAP
+{
+  "explainer": "shap.PermutationExplainer",
+  "version": "0.54.1",
+  "model": "Random Forest",
+  "validation_year": 2023,
+  "train_max_year": 2022,
+  "background_n": 32,
+  "explained_n": 20,
+  "max_evals": 210,
+  "seed": 42,
+  "max_additivity_error": 4.440892098500626e-16,
+  "units": "positive-class probability; descriptive, not causal"
+}
+
+FINAL SLICE ERRORS
+  feature_set         model  year      kato        region  target  prediction  probability  correct
+     Core (5) Random Forest  2024 190000000 Almaty region       1           0     0.034123    False
+     Core (5) Random Forest  2024 230000000        Atyrau       0           1     0.518455    False
+Extended (10) Random Forest  2024 190000000 Almaty region       1           0     0.118204    False
+     Core (5) Random Forest  2025 110000000        Akmola       1           0     0.067857    False
+     Core (5) Random Forest  2025 190000000 Almaty region       1           0     0.358070    False
+Extended (10) Random Forest  2025 110000000        Akmola       1           0     0.133131    False
 
 ENVIRONMENT
 {
   "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.22631-SP0",
-  "numpy": "2.5.4",
-  "pandas": "3.0.1",
-  "scikit_learn": "1.9.1",
-  "scipy": "1.18.1",
-  "matplotlib": "3.11.2",
-  "run_date": "2026-10-24"
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2",
+    "shap": "0.54.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "completed_utc": "2026-10-24T18:36:21.071031+00:00"
 }

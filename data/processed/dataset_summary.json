@@ -1,19 +1,47 @@
 {
+  "version": 2,
   "raw_rows": 240,
-  "candidate_rows": 220,
-  "model_rows": 164,
-  "excluded_rows": 56,
-  "development_rows": 124,
-  "test_rows": 40,
+  "core_eligible_rows": 164,
+  "matched_rows": 164,
+  "missing_extended_rows": 0,
   "positive": 40,
   "negative": 124,
+  "development_rows": 124,
+  "previously_seen_final_slice_rows": 40,
   "features": [
     "income_ratio_lag1",
     "wage_ratio_lag1",
     "unemployment_lag1",
     "urban_share_lag1",
-    "log_population_lag1"
+    "log_population_lag1",
+    "schools_per_10000_lag1",
+    "students_per_10000_lag1",
+    "doctors_per_10000_lag1",
+    "beds_per_10000_lag1",
+    "housing_sqm_per_person_lag1"
   ],
+  "feature_groups": {
+    "Core socioeconomic": [
+      "income_ratio_lag1",
+      "wage_ratio_lag1",
+      "unemployment_lag1",
+      "urban_share_lag1",
+      "log_population_lag1"
+    ],
+    "Education": [
+      "schools_per_10000_lag1",
+      "students_per_10000_lag1"
+    ],
+    "Healthcare": [
+      "doctors_per_10000_lag1",
+      "beds_per_10000_lag1"
+    ],
+    "Housing": [
+      "housing_sqm_per_person_lag1"
+    ]
+  },
   "feature_missing": 0,
-  "territory_strategy": "Conservative unbalanced panel; all 20 current units from outcome year 2023; split-affected regions omitted earlier, not imputed"
+  "school_year_rule": "2014/15 uses start year 2014; all predictors lag outcome by one year",
+  "housing_units": "Actual data sheet is thousand m2; multiply by 1000 before dividing by population",
+  "temporal_caution": "2024-2025 were inspected in V1. V2 uses rolling origin; they are not an untouched test."
 }

@@ -1,0 +1,11 @@
+variable,group,lag_years,definition
+income_ratio_lag1,Core socioeconomic,1,income ratio
+wage_ratio_lag1,Core socioeconomic,1,wage ratio
+unemployment_lag1,Core socioeconomic,1,unemployment
+urban_share_lag1,Core socioeconomic,1,urban share
+log_population_lag1,Core socioeconomic,1,log population
+schools_per_10000_lag1,Education,1,schools per 10000
+students_per_10000_lag1,Education,1,students per 10000
+doctors_per_10000_lag1,Healthcare,1,doctors per 10000
+beds_per_10000_lag1,Healthcare,1,beds per 10000
+housing_sqm_per_person_lag1,Housing,1,housing sqm per person

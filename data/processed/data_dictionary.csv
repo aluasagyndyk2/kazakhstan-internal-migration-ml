@@ -17,4 +17,9 @@ unemployment_lag1,Previous-year unemployment rate,percent,Both sexes total
 urban_share_lag1,Previous-year urban population / total population,fraction 0-1,"Same region, same year, same source"
 log_population_lag1,Natural logarithm of previous-year average population,log persons,Controls scale without using region identity
 previous_net,Previous-year internal net migration,persons,Only persistence benchmark; excluded from socioeconomic ML inputs
-split,Development or final held-out test,category,Development <=2023; test 2024-2025
+split,Development or previously inspected final slice,category,Development <=2023; 2024-2025 seen in V1; V2 uses expanding origins
+schools_per_10000_lag1,Previous-year schools per 10000,count per 10000 average annual population,Frozen BNS source; academic start year for education
+students_per_10000_lag1,Previous-year students per 10000,count per 10000 average annual population,Frozen BNS source; academic start year for education
+doctors_per_10000_lag1,Previous-year doctors per 10000,count per 10000 average annual population,Frozen BNS source; academic start year for education
+beds_per_10000_lag1,Previous-year beds per 10000,count per 10000 average annual population,Frozen BNS source; academic start year for education
+housing_sqm_per_person_lag1,Previous-year housing sqm per person,square metres per person,Frozen BNS source; academic start year for education
