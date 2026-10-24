@@ -4,7 +4,6 @@ Assignment 3: Methodology and Core Practical Implementation.
 
 **Students:** Aruzhan Rysbayeva and Alua Sagyndyk  
 **Group:** SE-2403  
-**Data snapshot and original execution:** 24 October 2026
 
 [Open notebook in Google Colab](https://colab.research.google.com/github/aluasagyndyk2/kazakhstan-internal-migration-ml/blob/main/Assignment3_Executed.ipynb)
 
