@@ -94,6 +94,3 @@ docs/                          Assignment 3 English report
 
 The revised annual BNS snapshot includes Akmola's +292 balance in 2025; earlier narrative releases can differ. The archived annual-table snapshot is the authority for this experiment.
 
-## Academic transparency
-
-AI assistance was used for code drafting, execution and report composition. Numerical outputs come from actual runs on archived official statistics and were checked against source controls. Each student remains responsible for the course rules and an independent oral defence. Full scientific and technical references, with publication years, are in the report.
